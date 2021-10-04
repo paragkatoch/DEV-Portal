@@ -15,7 +15,14 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install",
+    "format": "prettier --write --ignore-unknown ."
+  },
+  "lint-staged": {
+    "*.{js,html,jsx,css}": [
+      "npm run format"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -23,6 +30,14 @@
       "react-app/jest"
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preIdiot/OneDevPlace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/preIdiot/OneDevPlace/issues"
+  },
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -34,5 +49,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^11.2.0",
+    "prettier": "^2.4.1",
+    "sass": "^1.42.1"
   }
 }
