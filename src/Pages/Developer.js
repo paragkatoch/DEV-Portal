@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Developer() {
-  return <></>;
+  return (
+    <>
+      <h1>Developer</h1>
+    </>
+  );
 }
