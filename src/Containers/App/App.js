@@ -1,11 +1,8 @@
+import Routes from "../../Routes";
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>OneDevPlace</h1>
-    </div>
-  );
+  return <Routes />;
 }
 
 export default App;
