@@ -1,0 +1,59 @@
+.app-footer {
+	padding: 3.3rem 5.9rem;
+	margin-top: 16rem;
+
+	background: linear-gradient(180deg, #cdf4de 0%, #bbf2e9 2.44%);
+
+	.footer-container {
+		display: flex;
+		justify-content: space-between;
+
+		width: 82vw;
+
+		.footer-section {
+			display: flex;
+			flex-direction: column;
+
+			h2 {
+				font-weight: 500;
+				font-size: 21px;
+				line-height: 28px;
+
+				color: #0d6577;
+			}
+
+			.underline {
+				width: 13.12rem;
+				border-bottom: 2px solid #208094;
+
+				margin-top: 0.5rem;
+			}
+			.footer-contents {
+				margin-top: 1.3rem;
+
+				.content {
+					a,
+					p {
+						color: #222525;
+						font-size: 16px;
+						line-height: 25px;
+						text-decoration: none;
+
+						transition: all 0.1s;
+					}
+					a:hover {
+						font-weight: 600;
+						color: #0e363f;
+					}
+
+					&:not(:first-child) {
+						margin-top: 0.6rem;
+					}
+				}
+			}
+		}
+		#footer-Contacts a {
+			color: #006e85;
+		}
+	}
+}

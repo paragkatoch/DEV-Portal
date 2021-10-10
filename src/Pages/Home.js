@@ -1,9 +1,12 @@
 import React from "react";
+import BasicFrame from "../Containers/BasicFrame";
 
 export default function Home() {
-  return (
-    <>
-      <h1>OneDevPlace</h1>
-    </>
-  );
+	return (
+		<>
+			<BasicFrame>
+				<h1>OneDevPlace</h1>
+			</BasicFrame>
+		</>
+	);
 }
