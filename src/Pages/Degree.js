@@ -1,9 +1,12 @@
 import React from "react";
+import BasicFrame from "../Containers/BasicFrame";
 
 export default function Degree() {
 	return (
 		<>
-			<h1>Degree</h1>
+			<BasicFrame>
+				<h1>Degree</h1>
+			</BasicFrame>
 		</>
 	);
 }
