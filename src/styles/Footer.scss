@@ -109,29 +109,27 @@
 			grid-template-columns: 1fr 1fr;
 			row-gap: 3rem;
 
-			.footer-container {
-				.footer-section {
-					> h2 {
-						font-size: 16px;
-						line-height: 20px;
-					}
+			.footer-section {
+				> h2 {
+					font-size: 16px;
+					line-height: 20px;
+				}
 
-					.underline {
-						width: 120px;
-						margin-top: 0.7rem;
-					}
+				.underline {
+					width: 120px;
+					margin-top: 0.6rem;
+				}
 
-					.footer-contents {
-						margin-top: 0.65rem;
+				.footer-contents {
+					margin-top: 0.65rem;
 
-						.content {
-							margin-top: 0.45rem;
+					.content {
+						margin-top: 0.45rem;
 
-							a,
-							p {
-								font-size: 14px;
-								line-height: 16px;
-							}
+						a,
+						p {
+							font-size: 14px;
+							line-height: 16px;
 						}
 					}
 				}
