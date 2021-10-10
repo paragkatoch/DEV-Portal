@@ -4,6 +4,26 @@ export const APP = {
 	CONTACT_NO: "confidential",
 };
 
+// Nav Data
+export const NAV_DATA = [
+	{
+		title: "Developer",
+		link: "/developer",
+	},
+	{
+		title: "Degree",
+		link: "/degree",
+	},
+	{
+		title: "Misc.",
+		link: "/Misc",
+	},
+	{
+		title: "Contact Us.",
+		link: "/contact",
+	},
+];
+
 // Footer Data
 export const FOOTER_DATA = [
 	{
