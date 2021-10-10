@@ -1,9 +1,12 @@
 import React from "react";
+import BasicFrame from "../Containers/BasicFrame";
 
 export default function Miscellaneous() {
 	return (
 		<>
-			<h1>Miscellaneous</h1>
+			<BasicFrame>
+				<h1>Miscellaneous</h1>
+			</BasicFrame>
 		</>
 	);
 }

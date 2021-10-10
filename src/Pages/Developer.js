@@ -1,9 +1,12 @@
 import React from "react";
+import BasicFrame from "../Containers/BasicFrame";
 
 export default function Developer() {
 	return (
 		<>
-			<h1>Developer</h1>
+			<BasicFrame>
+				<h1>Developer</h1>
+			</BasicFrame>
 		</>
 	);
 }
