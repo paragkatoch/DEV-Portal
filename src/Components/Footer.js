@@ -6,8 +6,8 @@ export default function Footer() {
 	return (
 		<footer className="app-footer">
 			<main className="footer-container">
-				{FOOTER_DATA.map((data) => (
-					<FooterContent {...{ data }} />
+				{FOOTER_DATA.map((data, index) => (
+					<FooterContent key={index} {...{ data }} />
 				))}
 			</main>
 		</footer>
@@ -26,8 +26,8 @@ function FooterContent({ data }) {
 			<div className="underline"></div>
 
 			<section className="footer-contents">
-				{data.contents.map((content) => (
-					<section className="content">
+				{data.contents.map((content, index) => (
+					<section key={index} className="content">
 						{content?.value && <p>{content.name}</p>}
 						<a href={content.link}>
 							{content?.value ? content.value : content.name}
