@@ -6,6 +6,7 @@ import "../styles/Header.scss";
 
 import { Link } from "react-router-dom";
 import { useWindowSize } from "../customHooks";
+import { APP } from "../utils";
 
 export default function Header() {
 	const [sideBarView, setSideBarView] = useState(false);
@@ -58,7 +59,7 @@ export default function Header() {
 				<section className="logo-container">
 					<Link to="/">
 						<img src={AppIcon} alt="app icon" />
-						<h3>OneDevPlace</h3>
+						<h3>{APP.NAME}</h3>
 					</Link>
 				</section>
 
