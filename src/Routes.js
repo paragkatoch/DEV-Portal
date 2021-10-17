@@ -5,6 +5,7 @@ import Degree from "./Pages/Degree";
 import Developer from "./Pages/Developer";
 import Home from "./Pages/Home";
 import Miscellaneous from "./Pages/Miscellaneous";
+import NotFound from "./Pages/NotFound";
 
 export default function Routes() {
 	return (
@@ -34,6 +35,7 @@ export default function Routes() {
 						exact
 						render={(props) => <ContactUs {...props} />}
 					/>
+					<Route component={NotFound} />
 				</Switch>
 			</BrowserRouter>
 		</React.Fragment>
