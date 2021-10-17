@@ -1,5 +1,5 @@
 export const APP = {
-	NAME: "OneDevPlace",
+	NAME: "DEV-Portal",
 	EMAIL: "Kamra103@gmail.com",
 	CONTACT_NO: "confidential",
 };
