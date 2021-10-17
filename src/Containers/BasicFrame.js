@@ -2,12 +2,15 @@ import React from "react";
 import Footer from "../Components/Footer";
 import Header from "./Header";
 
-export default function BasicFrame(props) {
+export default function BasicFrame({ footer = true, header = true, ...props }) {
 	return (
-		<>
-			<Header />
+		<div
+			className="BasicFrame"
+			style={{ minHeight: "100vh", height: "fit-content" }}
+		>
+			{header ? <Header /> : null}
 			<main className="app-main-container">{props.children}</main>
-			<Footer />
-		</>
+			{footer ? <Footer /> : null}
+		</div>
 	);
 }
