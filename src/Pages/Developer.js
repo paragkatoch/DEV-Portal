@@ -1,12 +1,10 @@
-import React from "react";
-import BasicFrame from "../Containers/BasicFrame";
+import PageFrame from "../Containers/PageFrame";
+import DeveloperContainer from "../Containers/DeveloperContainer";
 
 export default function Developer() {
 	return (
-		<>
-			<BasicFrame>
-				<h1>Developer</h1>
-			</BasicFrame>
-		</>
+		<PageFrame>
+			<DeveloperContainer />
+		</PageFrame>
 	);
 }
