@@ -1,11 +1,10 @@
-import React from "react";
 import NotFoundComponent from "../Components/NotFound";
-import BasicFrame from "../Containers/BasicFrame";
+import PageFrame from "../Containers/PageFrame";
 
 export default function NotFound() {
 	return (
-		<BasicFrame footer={false}>
+		<PageFrame footer={false}>
 			<NotFoundComponent />
-		</BasicFrame>
+		</PageFrame>
 	);
 }

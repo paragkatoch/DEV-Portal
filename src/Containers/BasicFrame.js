@@ -9,7 +9,7 @@ export default function BasicFrame({ footer = true, header = true, ...props }) {
 			style={{ minHeight: "100vh", height: "fit-content" }}
 		>
 			{header ? <Header /> : null}
-			<main className="app-main-container">{props.children}</main>
+			{props.children}
 			{footer ? <Footer /> : null}
 		</div>
 	);
