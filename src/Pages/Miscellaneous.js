@@ -1,12 +1,12 @@
 import React from "react";
-import BasicFrame from "../Containers/BasicFrame";
+import ModuleContainer from "../Containers/ModuleContainer";
+import PageFrame from "../Containers/PageFrame";
+import { MiscModules } from "../ModuleData";
 
 export default function Miscellaneous() {
 	return (
-		<>
-			<BasicFrame>
-				<h1>Miscellaneous</h1>
-			</BasicFrame>
-		</>
+		<PageFrame>
+			<ModuleContainer data={MiscModules} />
+		</PageFrame>
 	);
 }

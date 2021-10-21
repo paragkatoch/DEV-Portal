@@ -1,10 +1,11 @@
 import PageFrame from "../Containers/PageFrame";
-import DeveloperContainer from "../Containers/DeveloperContainer";
+import ModuleContainer from "../Containers/ModuleContainer";
+import { DeveloperModules } from "../ModuleData";
 
 export default function Developer() {
 	return (
 		<PageFrame>
-			<DeveloperContainer />
+			<ModuleContainer data={DeveloperModules} />
 		</PageFrame>
 	);
 }

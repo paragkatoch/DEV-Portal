@@ -1,12 +1,12 @@
 import React from "react";
-import BasicFrame from "../Containers/BasicFrame";
+import ModuleContainer from "../Containers/ModuleContainer";
+import PageFrame from "../Containers/PageFrame";
+import { DegreeModules } from "../ModuleData";
 
 export default function Degree() {
 	return (
-		<>
-			<BasicFrame>
-				<h1>Degree</h1>
-			</BasicFrame>
-		</>
+		<PageFrame>
+			<ModuleContainer data={DegreeModules} />
+		</PageFrame>
 	);
 }

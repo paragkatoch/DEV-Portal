@@ -1,9 +1,7 @@
 .module-cards {
 	display: grid;
 	grid-template-columns: 1fr;
-	row-gap: 16rem;
-
-	margin-top: 6rem;
+	row-gap: 20vh;
 
 	.module-card {
 		display: grid;
@@ -12,6 +10,8 @@
 
 		align-items: center;
 		justify-items: center;
+
+		height: 65vh;
 
 		.card-data {
 			header {
