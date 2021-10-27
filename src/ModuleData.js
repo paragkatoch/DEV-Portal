@@ -1,3 +1,8 @@
+import DeveloperHome from "./assets/developer_home.svg";
+import DegreeHome from "./assets/degree_home.svg";
+import MiscHome from "./assets/misc_home.svg";
+import ContactHome from "./assets/contact_home.svg";
+
 import DomainDeveloper from "./assets/domain_developer.svg";
 import UpcomingDeveloper from "./assets/upcoming_developer.svg";
 import HelpDeveloper from "./assets/findhelp_developer.svg";
@@ -11,6 +16,41 @@ import NetworkMisc from "./assets/network_misc.svg";
 import AdviceMisc from "./assets/advice_misc.svg";
 import GrowthMisc from "./assets/growth_misc.svg";
 import AppMisc from "./assets/app_misc.svg";
+
+export const HomeModules = [
+	{
+		title: "Developer",
+		desc: "Aspirants Devs we’re having amazing things for you here, time is very precious better to use it wisely. Check out specialised section for Developers.",
+		img: DeveloperHome,
+		alt: "developer",
+		kickoff: "Let’s Go",
+		url: "/developer",
+	},
+	{
+		title: "Degree",
+		desc: "No barrier of Tiers, check out some best college insights that we’re sharing here. Get most from your college & be the best version of yourself.",
+		img: DegreeHome,
+		alt: "degree",
+		kickoff: "Find Out",
+		url: "/degree",
+	},
+	{
+		title: "Miscellaneous",
+		desc: "Getting a glory is way easy if you’re into the right path. Take the right step, and for side hustles and some personality dev jump off to this section. ",
+		img: MiscHome,
+		alt: "miscellaneous",
+		kickoff: "Let’s Go",
+		url: "/misc",
+	},
+	{
+		title: "Contact Us",
+		desc: "Our goal is to pass on what we've learned to the next generation. Learn how you may contribute to the future generation's development.",
+		img: ContactHome,
+		alt: "contact us",
+		kickoff: "Find Out",
+		url: "/contact",
+	},
+];
 
 export const DeveloperModules = [
 	{

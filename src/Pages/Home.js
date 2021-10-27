@@ -1,12 +1,14 @@
 import React from "react";
-import BasicFrame from "../Containers/BasicFrame";
+import PageFrame from "../Containers/PageFrame";
+import ModuleContainer from "../Containers/ModuleContainer";
+import { HomeModules } from "../ModuleData";
 
 export default function Home() {
 	return (
 		<>
-			<BasicFrame>
-				<h1>OneDevPlace</h1>
-			</BasicFrame>
+			<PageFrame>
+				<ModuleContainer data={HomeModules} />
+			</PageFrame>
 		</>
 	);
 }
