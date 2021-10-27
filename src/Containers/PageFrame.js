@@ -5,7 +5,9 @@ import "../styles/PageFrame.scss";
 export default function PageFrame({ footer = true, header = true, ...props }) {
 	return (
 		<BasicFrame {...{ footer, header }}>
-			<main className="app-main">{props.children}</main>
+			<main className="app-main" style={{ overflow: "hidden" }}>
+				{props.children}
+			</main>
 		</BasicFrame>
 	);
 }

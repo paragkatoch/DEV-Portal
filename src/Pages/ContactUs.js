@@ -1,12 +1,10 @@
-import React from "react";
-import BasicFrame from "../Containers/BasicFrame";
+import ContactCards from "../Components/ContactCards";
+import PageFrame from "../Containers/PageFrame";
 
 export default function ContactUs() {
 	return (
-		<>
-			<BasicFrame>
-				<h1>ContactUs</h1>
-			</BasicFrame>
-		</>
+		<PageFrame>
+			<ContactCards />
+		</PageFrame>
 	);
 }
