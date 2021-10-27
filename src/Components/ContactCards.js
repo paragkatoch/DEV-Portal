@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import LP from "../assets/lp_contact.png";
 import PK from "../assets/pk_contact.png";
 import UT from "../assets/ut_contact.png";
