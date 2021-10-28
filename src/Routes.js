@@ -1,8 +1,10 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import ContactUs from "./Pages/ContactUs";
+import Core from "./Pages/Core";
 import Degree from "./Pages/Degree";
 import Developer from "./Pages/Developer";
+import Domain from "./Pages/Domain";
 import Home from "./Pages/Home";
 import Miscellaneous from "./Pages/Miscellaneous";
 import NotFound from "./Pages/NotFound";
@@ -21,10 +23,22 @@ export default function Routes() {
 						render={(props) => <Developer {...props} />}
 					/>
 					<Route
+						path="/developer/domain"
+						exact
+						render={(props) => <Domain {...props} />}
+					/>
+
+					<Route
 						path="/degree"
 						exact
 						render={(props) => <Degree {...props} />}
 					/>
+					<Route
+						path="/degree/core"
+						exact
+						render={(props) => <Core {...props} />}
+					/>
+
 					<Route
 						path="/misc"
 						exact

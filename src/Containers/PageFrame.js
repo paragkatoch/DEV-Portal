@@ -1,4 +1,3 @@
-import React from "react";
 import BasicFrame from "./BasicFrame";
 import "../styles/PageFrame.scss";
 
