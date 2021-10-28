@@ -3,8 +3,8 @@
 	max-width: clamp(300px, 28vw, 340px);
 
 	&:nth-child(odd):last-child {
-		grid-column-start: 1;
-		grid-column-end: 3;
+		grid-column-start: span 2;
+		// grid-column-end: 3;
 	}
 	> a {
 		width: 100%;
