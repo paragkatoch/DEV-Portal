@@ -76,8 +76,8 @@ export default function Contact(props) {
 
 					<main className={styles.main}>
 						<p>
-							It's time to thank the heroes who made this project possible with
-							their world-class resources.
+							It&apos;s time to thank the heroes who made this project possible
+							with their world-class resources.
 						</p>
 					</main>
 
