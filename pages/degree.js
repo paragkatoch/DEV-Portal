@@ -1,11 +1,11 @@
 import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
 import ModuleFrame from "../components/Layouts/ModuleFrame/ModuleFrame";
-import { HomeModules } from "../utils/appData";
+import { DegreeModules } from "../utils/appData";
 
-export default function Home() {
+export default function Degree(props) {
 	return (
 		<BasicFrame>
-			<ModuleFrame data={HomeModules} />
+			<ModuleFrame data={DegreeModules} />
 		</BasicFrame>
 	);
 }

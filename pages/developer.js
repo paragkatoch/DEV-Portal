@@ -1,11 +1,11 @@
 import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
 import ModuleFrame from "../components/Layouts/ModuleFrame/ModuleFrame";
-import { HomeModules } from "../utils/appData";
+import { DeveloperModules } from "../utils/appData";
 
-export default function Home() {
+export default function Developer(props) {
 	return (
 		<BasicFrame>
-			<ModuleFrame data={HomeModules} />
+			<ModuleFrame data={DeveloperModules} />
 		</BasicFrame>
 	);
 }
