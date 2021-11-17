@@ -4,8 +4,9 @@ This project is to provide our upcoming batches of software engineers with a pro
 
 ## Builds
 
-- [Main](https://onedevplace-main.netlify.app)
-- [Development](https://onedevplace-dev.netlify.app/home)
+- [MAIN](https://one-dev-place.netlify.app) - **REACT**
+- [NEXT](https://one-dev-place.vercel.app) - **NEXT JS**
+
 
 ## Technologies to be used
 
