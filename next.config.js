@@ -5,4 +5,6 @@ module.exports = {
 		locales: ["en-US"],
 		defaultLocale: "en-US",
 	},
+
+	pageExtensions: ["page.js", "page.jsx"],
 };

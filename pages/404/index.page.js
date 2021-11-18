@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Head from "next/head";
 
-import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
-import styles from "../styles/NotFound.module.scss";
+import BasicFrame from "../../components/Layouts/BasicFrame/BasicFrame";
+import styles from "./styles/NotFound.module.scss";
 
 export default function NotFoundComponent() {
 	return (
