@@ -27,10 +27,6 @@ export default function Header(props) {
 
 			document.body.style.overflow = "unset";
 		}
-
-		return () => {
-			document.body.style.overflow = "unset";
-		};
 	}, [
 		screenSize,
 		setButtonStyle,
@@ -46,6 +42,7 @@ export default function Header(props) {
 		// handle scroll when sidebar is open
 		const bodyOverflow =
 			document.body.style.overflow === "hidden" ? "unset" : "hidden";
+
 		document.body.style.overflow = bodyOverflow;
 	};
 
@@ -77,7 +74,7 @@ export default function Header(props) {
 					</Link>
 				</section>
 
-				{sideBarView && <div className="balancer"></div>}
+				{sideBarView && <div className={styles.balancer}></div>}
 
 				{sideBarView ? <SideBar sideBarStyle={sideBarStyle} /> : <NavBar />}
 			</main>
