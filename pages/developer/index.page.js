@@ -1,7 +1,7 @@
 import Head from "next/head";
 
-import BasicFrame from "../../components/Layouts/BasicFrame/BasicFrame";
-import ModuleFrame from "../../components/Layouts/ModuleFrame/ModuleFrame";
+import BasicFrame from "../../components/Layouts/BasicFrame";
+import ModuleFrame from "../../components/Layouts/ModuleFrame";
 
 import { DeveloperModules } from "../../utils/appData";
 

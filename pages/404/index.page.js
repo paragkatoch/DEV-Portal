@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
 
-import BasicFrame from "../../components/Layouts/BasicFrame/BasicFrame";
+import BasicFrame from "../../components/Layouts/BasicFrame";
 import styles from "./styles/NotFound.module.scss";
 
 export default function NotFoundComponent() {

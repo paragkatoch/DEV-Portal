@@ -1,5 +1,5 @@
-import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
-import ModuleFrame from "../components/Layouts/ModuleFrame/ModuleFrame";
+import BasicFrame from "../components/Layouts/BasicFrame";
+import ModuleFrame from "../components/Layouts/ModuleFrame";
 import { HomeModules } from "../utils/appData";
 
 export default function Home() {
