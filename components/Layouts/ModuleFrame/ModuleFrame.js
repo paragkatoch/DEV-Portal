@@ -31,6 +31,7 @@ export default function ModuleFrame(props) {
 								alt={cardData.alt}
 								layout="responsive"
 								sizes="50vw"
+								priority={i === 0}
 							/>
 						</div>
 					</section>

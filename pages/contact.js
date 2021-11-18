@@ -39,6 +39,7 @@ export default function Contact(props) {
 												alt={cardInfo.alt}
 												layout="responsive"
 												sizes="10vw"
+												priority={true}
 											/>
 										</div>
 

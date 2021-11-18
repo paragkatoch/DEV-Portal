@@ -20,6 +20,7 @@ export default function NotFoundComponent() {
 						sizes="70vw"
 						height="345.5"
 						alt="Not Found"
+						priority={true}
 					/>
 				</div>
 				<p>Looks like you found our intern’s project!</p>

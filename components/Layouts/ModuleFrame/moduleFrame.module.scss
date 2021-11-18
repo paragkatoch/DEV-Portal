@@ -1,7 +1,7 @@
 .module_cards {
 	display: grid;
 	grid-template-columns: 1fr;
-	row-gap: 20vh;
+	row-gap: 18vh;
 
 	.module_card {
 		display: grid;
@@ -48,7 +48,10 @@
 					line-height: 30px;
 					word-spacing: 0.05rem;
 
-					color: #00839e;
+					// color: #00596b;
+					color: #006e85;
+
+					// color: #00839e;
 				}
 			}
 
