@@ -1,10 +1,16 @@
+import Image from "next/image";
+import Head from "next/head";
+
 import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
 import styles from "../styles/NotFound.module.scss";
-import Image from "next/image";
 
 export default function NotFoundComponent() {
 	return (
 		<BasicFrame footer={false}>
+			<Head>
+				<title>404: Not Found</title>
+			</Head>
+
 			<main className={styles.app_notfound}>
 				<div className={styles.img_container}>
 					<Image

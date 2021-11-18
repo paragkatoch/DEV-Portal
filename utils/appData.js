@@ -87,17 +87,21 @@ export const FOOTER_DATA = [
 	{
 		title: "Contacts",
 		contents: [
-			{ name: "Phone number:", value: APP.CONTACT_NO, link: "" },
+			{
+				name: "Phone number:",
+				value: APP.CONTACT_NO,
+				link: `tel:${APP.CONTACT_NO}`,
+			},
 			{ name: "E-mail:", value: APP.EMAIL, link: `mailto:${APP.EMAIL}` },
 		],
 	},
 	{
 		title: "Follow",
 		contents: [
-			{ name: "Facebook", link: "" },
-			{ name: "LinkedIn", link: "" },
-			{ name: "Instagram", link: "" },
-			{ name: "Twitter", link: "" },
+			{ name: "Facebook", link: "https://www.facebook.com/" },
+			{ name: "LinkedIn", link: "https://www.linkedin.com/" },
+			{ name: "Instagram", link: "https://www.instagram.com/" },
+			{ name: "Twitter", link: "https://www.twitter.com" },
 		],
 	},
 ];

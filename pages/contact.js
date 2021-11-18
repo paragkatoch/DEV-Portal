@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
 
 import LP from "../public/assets/lp_contact.png";
@@ -16,6 +17,10 @@ const cardsData = [
 export default function Contact(props) {
 	return (
 		<BasicFrame>
+			<Head>
+				<title>Contact Us</title>
+			</Head>
+
 			<main className={styles.contact_us}>
 				<section className={`${styles.whoweare} ${styles.contact_section}`}>
 					<header className={`${styles.header} ${styles.section_headers}`}>

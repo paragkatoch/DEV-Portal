@@ -4,23 +4,22 @@ import Header from "./elements/Header/Header";
 export default function BasicFrame(props) {
 	const { footer = true, header = true } = props;
 
+	const frameStyle = { minHeight: "100vh", height: "fit-content" };
+	const bodyStyle = {
+		overflow: "hidden",
+		padding: "0 2rem",
+		marginTop: "3rem",
+		marginBottom: "16rem",
+	};
+
 	return (
-		<div
-			className="BasicFrame"
-			style={{ minHeight: "100vh", height: "fit-content" }}
-		>
+		<div className="BasicFrame" style={frameStyle}>
 			{header ? <Header /> : null}
-			<main
-				className="app-main"
-				style={{
-					overflow: "hidden",
-					padding: "0 2rem",
-					marginTop: "3rem",
-					marginBottom: "16rem",
-				}}
-			>
+
+			<main className="app-main" style={bodyStyle}>
 				{props.children}
 			</main>
+
 			{footer ? <Footer /> : null}
 		</div>
 	);

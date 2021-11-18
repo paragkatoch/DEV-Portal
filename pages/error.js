@@ -1,6 +1,4 @@
-// import NotFoundImage from "../../assets/NotFound.png";
 import BasicFrame from "../components/Layouts/BasicFrame/BasicFrame";
-// import "../styles/NotFound.scss";
 import styles from "../styles/NotFound.module.scss";
 import Image from "next/image";
 
