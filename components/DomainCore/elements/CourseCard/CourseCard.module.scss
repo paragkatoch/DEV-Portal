@@ -4,7 +4,6 @@
 
 	&:nth-child(odd):last-child {
 		grid-column-start: span 2;
-		// grid-column-end: 3;
 	}
 	> a {
 		width: 100%;
@@ -51,5 +50,11 @@
 
 		pointer-events: none;
 		box-shadow: none;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.course_card:nth-child(odd):last-child {
+		grid-column-start: span 1;
 	}
 }

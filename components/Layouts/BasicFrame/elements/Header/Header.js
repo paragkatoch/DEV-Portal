@@ -19,6 +19,12 @@ export default function Header(props) {
 	});
 
 	useEffect(() => {
+		return () => {
+			document.body.style.overflow = "unset";
+		};
+	}, []);
+
+	useEffect(() => {
 		if (screenSize.width <= 848 && !sideBarView) setSideBarView(true);
 		else if (sideBarView && screenSize.width > 848) {
 			setSideBarView(false);

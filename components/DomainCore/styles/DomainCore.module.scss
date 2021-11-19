@@ -32,10 +32,6 @@
 			row-gap: 3rem;
 			margin-top: 4.4rem;
 			grid-template-columns: 1fr;
-
-			.course_card:nth-child(odd):last-child {
-				grid-column-start: span 1;
-			}
 		}
 	}
 }
