@@ -9,6 +9,10 @@ export default function NotFoundComponent() {
 		<BasicFrame footer={false}>
 			<Head>
 				<title>404: Not Found</title>
+				<meta
+					name="description"
+					content="Looks like you found our interns project"
+				/>
 			</Head>
 
 			<main className={styles.app_notfound}>

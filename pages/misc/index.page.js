@@ -10,6 +10,10 @@ export default function Misc(props) {
 		<BasicFrame>
 			<Head>
 				<title>DEV-Portal | Miscellaneous</title>
+				<meta
+					name="description"
+					content="From excellent networking prospects, effective communication skills to managing personal finances, this section has everything on self-growth."
+				/>
 			</Head>
 
 			<ModuleFrame data={MiscModules} />

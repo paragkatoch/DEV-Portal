@@ -10,6 +10,10 @@ export default function Degree(props) {
 		<BasicFrame>
 			<Head>
 				<title>DEV-Portal | Degree</title>
+				<meta
+					name="description"
+					content="This portion of the Dev Portal contains in-depth information about the core subjects of your college degree and some perks of being a student."
+				/>
 			</Head>
 
 			<ModuleFrame data={DegreeModules} />

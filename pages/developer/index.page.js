@@ -10,6 +10,10 @@ export default function Developer(props) {
 		<BasicFrame>
 			<Head>
 				<title>DEV-Portal | Developer</title>
+				<meta
+					name="description"
+					content="A comprehensive list of tools for aspiring developers, including roadmaps, channels, public help forums, and opportunities for both beginners and experts as well."
+				/>
 			</Head>
 
 			<ModuleFrame data={DeveloperModules} />

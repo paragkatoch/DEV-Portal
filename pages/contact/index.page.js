@@ -19,6 +19,10 @@ export default function Contact(props) {
 		<BasicFrame>
 			<Head>
 				<title>Contact Us</title>
+				<meta
+					name="description"
+					content="Would you like to help us extend this effort and reach out to even more people in need? Get in touch and help us make this dream come true."
+				/>
 			</Head>
 
 			<ContactComponent />
