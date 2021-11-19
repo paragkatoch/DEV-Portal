@@ -13,7 +13,12 @@ export default function CourseCard(props) {
 			<Link href={props.link}>
 				<a>
 					<div className={styles.image_container}>
-						<Image src={props.img} alt={props.alt} layout="responsive" />
+						<Image
+							src={props.img}
+							alt={props.alt}
+							layout="responsive"
+							sizes="10vw"
+						/>
 					</div>
 					<p>{props.courseName}</p>
 				</a>
