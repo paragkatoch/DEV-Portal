@@ -11,7 +11,7 @@ export default function Core() {
 				<title>Degree | Core</title>
 				<meta
 					name="description"
-					content="Top-rated core subjects with resources, roadmaps and handouts for acing the interviews."
+					content="Top-rated core subjects with resources, roadmaps, and handouts for acing the interviews."
 				/>
 			</Head>
 

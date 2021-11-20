@@ -11,7 +11,7 @@ export default function Domain() {
 				<title>Developer | Domain</title>
 				<meta
 					name="description"
-					content="Choose wisely as your domain decides your future actions, we provide the best domain options to opt before getting started."
+					content="Choose cautiously because your domain will determine your future aspects. We've compiled a list of the best domains in the industry for you to consider before getting started."
 				/>
 			</Head>
 
