@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
 
 				<meta
 					property="og:image"
-					content="https://dev-portal.vercel.app/logo192.png"
+					content={`${process.env.PUBLIC_URL}/logo192.png`}
 					key="image"
 				/>
 			</Head>
