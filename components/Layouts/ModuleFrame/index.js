@@ -1,5 +1,6 @@
 // import "../styles/CourseCard.scss";
 import Image from "next/image";
+import BasicButton from "../../BasicButton";
 import styles from "./moduleFrame.module.scss";
 
 export default function ModuleFrame(props) {
@@ -17,9 +18,7 @@ export default function ModuleFrame(props) {
 							<p>{cardData.desc}</p>
 						</article>
 
-						<button className={styles.card_button}>
-							<a href={cardData.url}>{cardData.kickoff}</a>
-						</button>
+						<BasicButton {...cardData} />
 					</section>
 
 					<section
