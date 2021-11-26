@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import DomainCore from "../../../components/DomainCore";
 import BasicFrame from "../../../components/Layouts/BasicFrame";
+
 import { DomainData } from "../../../utils/appData";
 
 export default function Domain() {
