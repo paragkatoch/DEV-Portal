@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import DetailedPage from "../../../../components/DetailedPage";
 import BasicFrame from "../../../../components/Layouts/BasicFrame";
 import { DomainData } from "../../../../utils/appData";
@@ -29,6 +31,11 @@ export async function getStaticProps({ params }) {
 export default function Domain({ domainData }) {
 	return (
 		<BasicFrame>
+			<Head>
+				<title>{domainData.courseName}</title>
+				<meta name="description" content={domainData.data[0].description} />
+			</Head>
+
 			<DetailedPage {...domainData} />
 		</BasicFrame>
 	);
