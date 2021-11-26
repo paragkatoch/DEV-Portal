@@ -18,6 +18,7 @@ export default function CourseCard(props) {
 							alt={props.alt}
 							layout="responsive"
 							sizes="10vw"
+							priority="true"
 						/>
 					</div>
 					<p>{props.courseName}</p>

@@ -17,7 +17,13 @@ export default function DataCardBody(props) {
 						<a>
 							{props.img !== undefined ? (
 								<div className={styles.image_container}>
-									<Image src={props.img} alt={props.alt} layout="responsive" />
+									<Image
+										src={props.img}
+										alt={props.alt}
+										layout="responsive"
+										sizes="20vw"
+										priority="true"
+									/>
 								</div>
 							) : null}
 

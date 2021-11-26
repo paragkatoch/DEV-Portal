@@ -50,7 +50,13 @@ function DataCard(props) {
 
 					<section className={styles.data}>
 						<div className={styles.image_container}>
-							<Image src={props.img} alt={props.alt} layout="responsive" />
+							<Image
+								src={props.img}
+								alt={props.alt}
+								layout="responsive"
+								sizes="20vw"
+								priority="true"
+							/>
 						</div>
 
 						<p>{props.heading}</p>
@@ -62,6 +68,7 @@ function DataCard(props) {
 								<Image
 									src={props.type === "youtube" ? YoutubeLink : WebLink}
 									alt="youtube"
+									sizes="10vw"
 									layout="responsive"
 								/>
 							</div>
