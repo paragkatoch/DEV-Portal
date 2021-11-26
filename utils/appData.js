@@ -670,6 +670,8 @@ export const DomainData = {
 			alt: "ai_ml",
 			courseName: "AI/ML",
 			link: "/resource/domains/ai_ml",
+
+			disabled: true,
 		},
 		{
 			img: IOSDev,

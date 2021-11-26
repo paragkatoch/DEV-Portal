@@ -27,7 +27,6 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Domain({ domainData }) {
-	console.log(domainData);
 	return (
 		<BasicFrame>
 			<DetailedPage {...domainData} />
