@@ -1,0 +1,25 @@
+.detailed_page {
+	display: grid;
+	row-gap: 30vh;
+
+	margin-top: 2rem;
+	margin-left: 10vw;
+}
+
+@media screen and (max-width: 1200px) {
+	.detailed_page {
+		margin-left: 6vw;
+	}
+}
+
+@media screen and (max-width: 1040px) {
+	.detailed_page {
+		margin-left: 3vw;
+	}
+}
+@media screen and (max-width: 658px) {
+	.detailed_page {
+		margin-top: 0;
+		margin-left: 0;
+	}
+}
