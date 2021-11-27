@@ -46,10 +46,7 @@
 .course_card.disabled {
 	> a {
 		background: rgba(69, 100, 91, 0.2);
-		filter: blur(1px);
-
 		pointer-events: none;
-		box-shadow: none;
 	}
 }
 
