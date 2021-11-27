@@ -92,7 +92,7 @@ function NavBar() {
 	const current = useRouter().pathname;
 
 	const links = NAV_DATA.map((element, index) => (
-		<li key={index} id={element.link === current ? "active" : null}>
+		<li key={index} id={element.link === current ? styles.active : null}>
 			<Link href={element.link}>
 				<a>{element.title}</a>
 			</Link>

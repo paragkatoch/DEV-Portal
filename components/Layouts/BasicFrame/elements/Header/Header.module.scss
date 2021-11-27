@@ -125,10 +125,11 @@
 			padding-right: 4vw;
 
 			.navbar_container {
-				display: flex;
-				justify-content: space-between;
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				justify-items: center;
 
-				width: 28.2rem;
+				width: 32rem;
 
 				list-style: none;
 
@@ -151,12 +152,9 @@
 				li:hover,
 				li#active {
 					> a {
-						text-shadow: 0px 4px 4px #0e363f37;
+						color: #083e49;
+						font-weight: 600;
 					}
-				}
-				li#active > a {
-					color: #083e49;
-					font-weight: 500;
 				}
 			}
 		}
