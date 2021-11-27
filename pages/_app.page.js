@@ -25,6 +25,10 @@ function MyApp({ Component, pageProps }) {
 					content="width=device-width, initial-scale=1"
 					key="viewport"
 				/>
+				<meta
+					property="og:image"
+					content={`${process.env.PUBLIC_URL}/android-icon-192x192.png`}
+				/>
 
 				<link rel="manifest" href={`${process.env.PUBLIC_URL}/manifest.json`} />
 				<link
