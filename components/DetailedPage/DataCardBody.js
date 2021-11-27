@@ -27,7 +27,8 @@ export default function DataCardBody(props) {
 								</div>
 							) : null}
 
-							<h2>{props.heading}</h2>
+							{props.heading && <h2>{props.heading}</h2>}
+							{props.subHeading && <h3>{props.subHeading}</h3>}
 						</a>
 					</Link>
 				</header>
