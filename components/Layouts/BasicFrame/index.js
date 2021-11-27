@@ -7,7 +7,7 @@ export default function BasicFrame(props) {
 	const frameStyle = { minHeight: "100vh", height: "fit-content" };
 	const bodyStyle = {
 		overflow: "hidden",
-		padding: "0 2rem",
+		padding: "0 5vw",
 		marginTop: "3rem",
 		marginBottom: "16rem",
 	};

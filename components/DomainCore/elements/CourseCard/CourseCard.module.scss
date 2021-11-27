@@ -1,6 +1,6 @@
 .course_card {
 	width: 340px;
-	max-width: clamp(300px, 28vw, 340px);
+	max-width: clamp(280px, 28vw, 340px);
 
 	&:nth-child(odd):last-child {
 		grid-column-start: span 2;
