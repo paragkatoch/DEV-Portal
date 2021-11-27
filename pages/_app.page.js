@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 			<Head>
 				<title>DEV-Portal</title>
 
-				<meta charset="utf-8" />
+				<meta charSet="utf-8" />
 				<meta
 					name="description"
 					content="The champions of mindset will be rewarded with glory. We have the best practices, tested, and proven handbooks spanning over multiple domains with elaborated roadmaps, resources, and workflows to minimize time spent on research without spending a dime."
