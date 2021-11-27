@@ -127,7 +127,7 @@ export const DomainData = {
 						"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Web domain.",
 				},
 				{
-					heading: "Roadmap",
+					subHeading: "Roadmap",
 					alt: "roadmap",
 					description:
 						"After evaluating the tech stacks you'll need, build your skills from the ground up. These structured pathways will help you decide what to start first.",
@@ -147,7 +147,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Resources",
+					subHeading: "Resources",
 					description:
 						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
 					alt: "resources",
@@ -232,7 +232,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Project Ideas",
+					subHeading: "Project Ideas",
 					description: "No Description",
 					alt: "project_ideas",
 					dataCards: [
@@ -287,7 +287,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Test your knowledge",
+					subHeading: "Test your knowledge",
 					alt: "test",
 					description:
 						"Challenges make success simpler, try out these step-guided assessments. Test your skills to look out for your mistakes and be the better version of yourself",
@@ -335,7 +335,7 @@ export const DomainData = {
 						"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Android domain.",
 				},
 				{
-					heading: "Roadmap",
+					subHeading: "Roadmap",
 					alt: "roadmap",
 					description:
 						"After evaluating the tech stacks you'll need, build your skills from the ground up. These structured pathways will help you decide what to start first.",
@@ -355,7 +355,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Resources",
+					subHeading: "Resources",
 					description:
 						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
 					alt: "resources",
@@ -447,7 +447,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Project Ideas",
+					subHeading: "Project Ideas",
 					alt: "project_ideas",
 					description: "No Description",
 					dataCards: [
@@ -502,7 +502,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Test your knowledge",
+					subHeading: "Test your knowledge",
 					alt: "test",
 					description:
 						"Challenges make success simpler, try out these step-guided assessments. Test your skills to look out for your mistakes and be the better version of yourself",
@@ -562,7 +562,7 @@ export const DomainData = {
 						"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Android domain.",
 				},
 				{
-					heading: "Roadmap",
+					subHeading: "Roadmap",
 					alt: "roadmap",
 					description:
 						"After evaluating the tech stacks you'll need, build your skills from the ground up. These structured pathways will help you decide what to start first.",
@@ -582,7 +582,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Resources",
+					subHeading: "Resources",
 					alt: "resources",
 					description:
 						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
@@ -632,7 +632,7 @@ export const DomainData = {
 					],
 				},
 				{
-					heading: "Test your knowledge",
+					subHeading: "Test your knowledge",
 					alt: "test",
 					description:
 						"Challenges make success simpler, try out these step-guided assessments. Test your skills to look out for your mistakes and be the better version of yourself",
@@ -742,7 +742,7 @@ export const CoreData = {
 		{
 			img: TOC,
 			alt: "theory of computation",
-			courseName: "Theory of Computation",
+			courseName: "TOC",
 			link: "/resource/core/toc",
 		},
 		{
