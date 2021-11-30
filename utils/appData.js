@@ -36,6 +36,9 @@ import AdviceMisc from "../public/assets/advice_misc.svg";
 import GrowthMisc from "../public/assets/growth_misc.svg";
 import AppMisc from "../public/assets/app_misc.svg";
 
+import ThumbsUp from "../public/assets/developer/thumbsUp.svg";
+import ThumbsDown from "../public/assets/developer/thumbsDown.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -114,6 +117,7 @@ export const DomainData = {
 	courses: [
 		{
 			img: WebDev,
+			pageType: "card-type",
 			alt: "web_development",
 			courseName: "Web Development",
 			link: "/resource/domains/web_development",
@@ -323,6 +327,7 @@ export const DomainData = {
 		{
 			img: AndroidDev,
 			alt: "android_development",
+			pageType: "card-type",
 			courseName: "Android Development",
 			link: "/resource/domains/android_development",
 			data: [
@@ -550,6 +555,7 @@ export const DomainData = {
 		{
 			img: CloudDev,
 			alt: "cloud_development",
+			pageType: "card-type",
 			courseName: "Cloud Development",
 			link: "/resource/domains/cloud_development",
 			data: [
@@ -668,6 +674,7 @@ export const DomainData = {
 		{
 			img: AIML,
 			alt: "ai_ml",
+			pageType: "card-type",
 			courseName: "AI/ML",
 			link: "/resource/domains/ai_ml",
 
@@ -676,6 +683,7 @@ export const DomainData = {
 		{
 			img: IOSDev,
 			alt: "ios_development",
+			pageType: "card-type",
 			courseName: "IOS Development",
 			link: "/resource/domains/ios_development",
 
@@ -684,6 +692,7 @@ export const DomainData = {
 		{
 			img: ComingSoon,
 			alt: "coming_soon",
+			pageType: "card-type",
 			courseName: "More coming Soon....",
 			link: "/resource/domains/coming_soon",
 
@@ -835,7 +844,131 @@ export const DeveloperModules = [
 		img: DoDontDeveloper,
 		alt: "people busy in mobile device",
 		kickoff: "Show Me",
+		pageType: "list-type",
 		url: "/developer/do-dont",
+		data: [
+			{
+				alt: "dos_donts",
+				heading: "Do's and Dont's",
+				nextAlt: "dos",
+				description:
+					"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Web domain.",
+			},
+			{
+				img: ThumbsUp,
+				alt: "dos",
+				subHeading: "Do's",
+				children: [
+					{
+						title: "Learn to budget",
+						description:
+							"Everyone enjoys spending money, but only a few people understand and are taught how to do so responsibly. From the beginning of student life, one must learn to stay within the monthly limit. It not only gives you a sense of security, but it also gives us peace of mind knowing that we can deal with any unforeseen circumstance.",
+					},
+					{
+						title: "Choose docs over videos",
+						description:
+							"Watching videos takes longer than reading documentation, and the material is organized in a way that you get to the point information quickly. You can waste time watching video lectures at 2x speed, but advertising, promotion material, and slipping into the zone all lead to a waste of time. Documentation is the most recent version of a tech stack, whereas video may be outdated.",
+					},
+					{
+						title: "Make time to exercise",
+						description:
+							"Working for hours to achieve greatness sounds really reasonably, Investing time to develop abilities is excellent. Following that, you must make it a habit to exercise every day. Making yourself fit will help you think positively and be more efficient than before, as a healthy mind lives in a healthy body. The ideal life is when your mind, hand, and body are in sync, and you take time away from the screen to invest in your body.",
+					},
+					{
+						title: "Apply for scholarships",
+						description:
+							"Everything is available for free on the Internet, including some hacks that can lead you to a magnificent environment. Scholarships are a brilliant example of this, as they allow students to learn and grow without thinking of the financial aspect. Visit the opportunities section of our website to see what's new. Take advantage of the premium courses that are specifically designed to put you in the prominent position you deserve.",
+					},
+					{
+						title: "Interact with seniors and alumni",
+						description:
+							"Experience is a valuable asset that can be earned over time. A mentor or fellow will assist you in improving your skill by advising you on how to achieve your aim and what measures to follow. A senior or alumni with a wealth of knowledge will tell you what steps to avoid and what not to do, which can only be learned via experience. Interact as much as possible with your seniors. It's a free package that can help you shine.",
+					},
+					{
+						title: "Set Goals",
+						description:
+							"Even animals have a daily aim of feeding themselves, and you're here working without one because everyone else is. Analyze your habits, seek guidance, and take part in public forums to gain a deeper understanding of the aim you want to achieve. If you have a dream job in mind, ask someone who already has one; it will be an eye-opening moment for you. You may change your mind, or you could begin working on particular tasks to help you get closer to your aim. If you have a goal, you must safeguard it by setting regular reminders, tracking your progress, and striving to be a better version of yourself. You are your only competitor aiming for being better than yesterday.",
+					},
+					{
+						title: "Prioritize",
+						description:
+							"If that party is truly beneficial to attend, and if you truly want to engage in that program, don't join just because all of your friends are. Ask yourself these questions and prioritize your job. Also, incorporate the DISC model into your life (you may find it on YouTube) and prioritize your work. Do what improves your talents. Going to a party is fun, provides a respite, and helps to relax your thoughts. However, frequent partying will cause distractions. Prioritize your daily tasks and adopt what leads to achievement.",
+					},
+					{
+						title: "Organize",
+						description:
+							"You procrastinated again since you were swamped with work and had several deadlines to meet. Feeling guilty about not being able to achieve your goal. This happens because you haven't prioritized your tasks, which can only be done if you know how to manage your work. Make a to-do list instead of a timetable and don't forget to make a not-to-do list. Making a to-do list prioritizes your work, but making a not-to-do list prioritizes your time.",
+					},
+					{
+						title: "Have a small circle of friends",
+						description:
+							"Always be the first to speak, as this enhances your self-esteem. This will work if you're social, but don't go about telling everyone you're an introvert because you don't like to talk. Make a limited group of acquaintances who can bring you up when you're at your low. Making friends with more experience, say 4-5 years older than you, would be ideal, but if your ideas coincide with those of your friends, that's the icing on the cake.",
+					},
+					{
+						title: "Make a habit of reading",
+						description:
+							"The more you explore, the more you learn, the more you learn, the more you grow. Books are ideal for growth at all ages. However, reading on electronic devices is not encouraged, as the goal is to take a break from the screen. Reading good novels by well-known authors might help you improve your vocabulary and communication abilities. Reading books enhances focus and builds patience. Choose works that have an impact, such as Rich Dad Poor Dad and Ikagai. The books you read should apply to your life, abilities, and goals.",
+					},
+				],
+			},
+			{
+				img: ThumbsDown,
+				alt: "donts",
+				subHeading: "Dont's",
+				children: [
+					{
+						title: "Tutorial Hell",
+						description:
+							"Don't make the mistake of viewing countless lectures and being a stickler for details. Instead, focus on honing your skills in the hands-on area. You can't study everything at once, concentrate on one thing at a time, and divide large undertakings into the crux.",
+					},
+					{
+						title: "Certificate Collection",
+						description:
+							"Attending many workshops should never be misinterpreted for discovery. Every day, tens of thousands of workshops are conducted, find the one that is right for you. Joining a program just for the sake of certification is clearly a bad idea, regardless of whether you earn money from the program or expand your network.",
+					},
+					{
+						title: "Building in secret",
+						description:
+							"Open Source is the most valuable asset introduced to the field of technology since it allows you to collaborate and learn with others. Don't keep your efforts to yourself, show them out to others. You've worked so hard to get where you are, and if you open-source your work, your chances of landing a better spot expand exponentially.",
+					},
+					{
+						title: "Sticking to one tech",
+						description:
+							"Whether it's in people or tech stack, diversity is always helpful. Learn and explore relevant tech stacks to be an asset to your team. This will open multiple doors to greatness. There's no need to be an expert at everything. The goal is to help yourself excel. ",
+					},
+					{
+						title: "Skipping core subjects",
+						description:
+							"The stronger is the Foundation the more it lasts. To broaden your thinking space, learn the core subjects of your discipline. Allow your brain greater room to explore and never neglect the core subjects, as these are the foundations. ",
+					},
+					{
+						title: "FAANG only mindset",
+						description:
+							"A limited perspective never evolves, and a fixed mindset only degrades. Money is a basic need, and the desire to earn much is admirable, yet there are several organizations that pay significantly more than FAANG. Never set limits for yourself. Instead, work on improving your skills and learning to cater to the community.",
+					},
+					{
+						title: "No extra curricular",
+						description:
+							"Getting into college is a wonderful experience, leaning into studies is good. But don't forget to participate in extracurricular activities, now is the perfect time to do so. Participate in offline hackathons to improve networking, travel chances, and win cash prizes. Build your communities, or at the very least engage in a variety of community events, to gain industrial experience as a student.",
+					},
+					{
+						title: "Comparing yourself with others",
+						description:
+							"The probability of two individuals sharing the same fingerprints is 1 in 64 billion and here you're comparing yourself with others. Examine how you can be a better version of yourself, keep track of your progress, reward yourself regularly for your achievements, and most important of all, introspect at least once a week.",
+					},
+					{
+						title: "Poor communication skills",
+						description:
+							"You may always have the information and talent, but how will you demonstrate them if you don't know how to convey it? Going all out and allowing yourself to be embarrassed once in a while is the best method to get rid of shyness and poor self-esteem. This strategy will substantially increase your self-confidence and soft skills.",
+					},
+					{
+						title: "Don't be afraid to ask for help",
+						description:
+							"'He who asks questions is a fool for five minutes, he who doesn't remain a fool forever'. If you get stuck at any stage, don't be afraid to ask for help. While it may seem foolish, everyone requires help at some point in life.",
+					},
+				],
+			},
+		],
 	},
 ];
 
