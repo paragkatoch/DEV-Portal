@@ -9,7 +9,7 @@ export default function Domain() {
 	return (
 		<BasicFrame>
 			<Head>
-				<title>Developer | Domain</title>
+				<title>Domain</title>
 				<meta
 					name="description"
 					content="Choose cautiously because your domain will determine your future aspects. We've compiled a list of the best domains in the industry for you to consider before getting started."

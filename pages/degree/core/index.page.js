@@ -8,7 +8,7 @@ export default function Core() {
 	return (
 		<BasicFrame>
 			<Head>
-				<title>Degree | Core</title>
+				<title>Core</title>
 				<meta
 					name="description"
 					content="Top-rated core subjects with resources, roadmaps, and handouts for acing the interviews."

@@ -11,10 +11,10 @@ export default function Domain() {
 	return (
 		<BasicFrame>
 			<Head>
-				<title>Domain</title>
+				<title>Opportunities</title>
 				<meta
 					name="description"
-					content="Choose cautiously because your domain will determine your future aspects. We've compiled a list of the best domains in the industry for you to consider before getting started."
+					content="Never miss an opportunity with us, get regular updates on fore coming events and programs."
 				/>
 			</Head>
 

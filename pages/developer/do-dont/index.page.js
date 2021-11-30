@@ -12,7 +12,7 @@ export default function Dos_Donts() {
 				<title>Do&apos;s & Dont&apos;s</title>
 				<meta
 					name="description"
-					content="Top-rated core subjects with resources, roadmaps, and handouts for acing the interviews."
+					content="Getting into a college and finding yourself in a dilemma, now we've got the exact tried and tested things to make sure you're on the right path to glory."
 				/>
 			</Head>
 
