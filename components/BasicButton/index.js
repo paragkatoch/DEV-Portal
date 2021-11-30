@@ -5,7 +5,9 @@ export default function BasicButton(data) {
 	return (
 		<button className={styles.card_button}>
 			<Link href={data.url}>
-				<a>{data.kickoff}</a>
+				<a target={data.url.includes("http") ? "_blank" : "_self"}>
+					{data.kickoff}
+				</a>
 			</Link>
 		</button>
 	);

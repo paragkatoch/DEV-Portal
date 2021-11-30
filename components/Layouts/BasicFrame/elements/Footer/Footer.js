@@ -1,4 +1,4 @@
-import React from "react";
+import Link from "next/link";
 import { FOOTER_DATA } from "../../../../../utils/appData";
 import styles from "./Footer.module.scss";
 
@@ -32,10 +32,11 @@ function FooterContent({ data }) {
 								<br />
 							</>
 						)}
-
-						<a href={content.link}>
-							{content?.value ? content.value : content.name}
-						</a>
+						<Link href={content.link}>
+							<a target={content.link.includes("http") ? "_blank" : "_self"}>
+								{content?.value ? content.value : content.name}
+							</a>
+						</Link>
 					</section>
 				))}
 			</section>

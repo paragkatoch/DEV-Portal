@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useWindowSize } from "../../../../utils/customHooks";
 
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./linkCard.module.scss";
 
 import YoutubeLink from "../../../../public/assets/youtube_link.svg";
@@ -49,29 +50,30 @@ export default function LinkCardsContainer(props) {
 function LinkCard(props) {
 	return (
 		<section className={styles.link_card}>
-			<a href={props.link} rel="noreferrer" target="_blank">
-				<main className={styles.card_container}>
-					<div className={styles.link_type}></div>
+			<Link href={props.link}>
+				<a target={props.link.includes("http") ? "_blank" : "_self"}>
+					<main className={styles.card_container}>
+						<div className={styles.link_type}></div>
 
-					<section className={styles.data}>
-						<div className={styles.image_container}>
-							<Image
-								src={props.img}
-								alt={props.alt}
-								layout="responsive"
-								sizes="20vw"
-								priority="true"
-							/>
+						<section className={styles.data}>
+							<div className={styles.image_container}>
+								<Image
+									src={props.img}
+									alt={props.alt}
+									layout="responsive"
+									sizes="20vw"
+									priority="true"
+								/>
+							</div>
+							<p>{props.heading}</p>
+						</section>
+
+						<div className={styles.link_type}>
+							{props.type && <ImageContainer {...props} />}
 						</div>
-						<p>{props.heading}</p>
-					</section>
-
-					<div className={styles.link_type}>
-						{props.type && <ImageContainer {...props} />}
-					</div>
-				</main>
-			</a>
-
+					</main>
+				</a>
+			</Link>
 			{props.children}
 		</section>
 	);
