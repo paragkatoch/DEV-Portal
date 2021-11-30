@@ -11,7 +11,7 @@ export default function CourseCard(props) {
 			}`}
 		>
 			<Link href={props.link}>
-				<a>
+				<a target={props.link.includes("http") ? "_blank" : "_self"}>
 					<div className={styles.image_container}>
 						<Image
 							src={props.img}
@@ -21,7 +21,7 @@ export default function CourseCard(props) {
 							priority="true"
 						/>
 					</div>
-					<p>{props.courseName}</p>
+					<p>{props.title}</p>
 				</a>
 			</Link>
 		</section>

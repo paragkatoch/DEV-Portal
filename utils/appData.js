@@ -39,6 +39,14 @@ import AppMisc from "../public/assets/app_misc.svg";
 import ThumbsUp from "../public/assets/developer/thumbsUp.svg";
 import ThumbsDown from "../public/assets/developer/thumbsDown.svg";
 
+import GDSC from "../public/assets/developer/opportunities/gdsc.svg";
+import Github from "../public/assets/developer/opportunities/github.svg";
+import GSOC from "../public/assets/developer/opportunities/gsoc.svg";
+import Hacktoberfest from "../public/assets/developer/opportunities/hactoberfest.svg";
+import MLH from "../public/assets/developer/opportunities/mlh.svg";
+import MLSA from "../public/assets/developer/opportunities/mlsa.svg";
+import Upraised from "../public/assets/developer/opportunities/upraised.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -112,14 +120,14 @@ export const FOOTER_DATA = [
 
 // Domain Data
 export const DomainData = {
-	heading: "Choose your domain of Interest",
+	title: "Choose your domain of Interest",
 	className: "domain",
 	courses: [
 		{
 			img: WebDev,
 			pageType: "card-type",
 			alt: "web_development",
-			courseName: "Web Development",
+			title: "Web Development",
 			link: "/resource/domains/web_development",
 			data: [
 				{
@@ -328,7 +336,7 @@ export const DomainData = {
 			img: AndroidDev,
 			alt: "android_development",
 			pageType: "card-type",
-			courseName: "Android Development",
+			title: "Android Development",
 			link: "/resource/domains/android_development",
 			data: [
 				{
@@ -556,7 +564,7 @@ export const DomainData = {
 			img: CloudDev,
 			alt: "cloud_development",
 			pageType: "card-type",
-			courseName: "Cloud Development",
+			title: "Cloud Development",
 			link: "/resource/domains/cloud_development",
 			data: [
 				{
@@ -675,7 +683,7 @@ export const DomainData = {
 			img: AIML,
 			alt: "ai_ml",
 			pageType: "card-type",
-			courseName: "AI/ML",
+			title: "AI/ML",
 			link: "/resource/domains/ai_ml",
 
 			disabled: true,
@@ -684,7 +692,7 @@ export const DomainData = {
 			img: IOSDev,
 			alt: "ios_development",
 			pageType: "card-type",
-			courseName: "IOS Development",
+			title: "IOS Development",
 			link: "/resource/domains/ios_development",
 
 			disabled: true,
@@ -692,8 +700,7 @@ export const DomainData = {
 		{
 			img: ComingSoon,
 			alt: "coming_soon",
-			pageType: "card-type",
-			courseName: "More coming Soon....",
+			title: "More coming Soon....",
 			link: "/resource/domains/coming_soon",
 
 			disabled: true,
@@ -703,73 +710,74 @@ export const DomainData = {
 
 // Core Data
 export const CoreData = {
-	heading: "Explore CORE of your interest",
+	title: "Explore CORE of your interest",
 	className: "core",
 	courses: [
 		{
 			img: DSAlgo,
 			alt: "data structures and algorithm",
-			courseName: "DS and Algo",
+			title: "DS and Algo",
 			link: "/resource/core/ds_algo",
 		},
 		{
 			img: ADA,
 			alt: "analysis and design of algorithm",
-			courseName: "ADA",
+			title: "ADA",
 			link: "/resource/core/ada",
 		},
 		{
 			img: CyberSecurity,
 			alt: "cyber security",
-			courseName: "Cyber Security",
+			title: "Cyber Security",
 			link: "/resource/core/cyber_security",
 		},
 		{
 			img: SystemDesign,
 			alt: "system design",
-			courseName: "System Design",
+			title: "System Design",
 			link: "/resource/core/system_design",
 		},
 		{
 			img: Maths,
 			alt: "maths",
-			courseName: "Maths",
+			title: "Maths",
 			link: "/resource/core/maths",
 		},
 		{
 			img: CSO,
 			alt: "cso",
-			courseName: "CSO",
+			title: "CSO",
 			link: "/resource/core/cso",
 		},
 		{
 			img: OS,
 			alt: "operating system",
-			courseName: "Operating System",
+			title: "Operating System",
 			link: "/resource/core/operating_system",
 		},
 		{
 			img: TOC,
+
 			alt: "theory of computation",
-			courseName: "TOC",
+			title: "TOC",
 			link: "/resource/core/toc",
 		},
 		{
 			img: DBMS,
 			alt: "database and management system",
-			courseName: "DBMS",
+			title: "DBMS",
 			link: "/resource/core/dbms",
 		},
 		{
 			img: OOPS,
 			alt: "oops",
-			courseName: "OOPS",
+			title: "OOPS",
 			link: "/resource/core/oops",
 		},
 		{
 			img: ComingSoon,
 			alt: "coming soon",
-			courseName: "More coming Soon....",
+			title: "More coming Soon....",
 			link: "/developer/domain",
 			disabled: true,
 		},
@@ -823,13 +831,67 @@ export const DeveloperModules = [
 		url: "/developer/domain",
 	},
 	{
-		title: "Upcoming opportunities",
+		title: "Upcoming Programs/Opportunities",
 		desc: "Picking up to the best opportunity is an asset.\nWe've covered some of the eminent programs that can take you to the glory.",
 		img: UpcomingDeveloper,
+		className: "upcoming_programs",
 		alt: "opportunities",
 		kickoff: "Find Out",
 		url: "/developer/opportunities",
+		courses: [
+			{
+				title: "GSOC",
+				alt: "GSOC",
+				link: "https://summerofcode.withgoogle.com/",
+				img: GSOC,
+			},
+			{
+				alt: "GDSC",
+				title: "GDSC",
+				link: "https://developers.google.com/community/gdsc/leads",
+				img: GDSC,
+			},
+			{
+				alt: "MLSA",
+				title: "MLSA",
+				link: "https://developers.google.com/community/gdsc/leads",
+				img: MLSA,
+			},
+			{
+				alt: "MLH",
+				title: "MLH",
+				link: "https://fellowship.mlh.io/",
+				img: MLH,
+			},
+			{
+				alt: "Hactober Fest",
+				title: "Hactober Fest",
+				link: "https://hacktoberfest.digitalocean.com/",
+				img: Hacktoberfest,
+			},
+			{
+				alt: "Upraised",
+				title: "Upraised",
+				link: "https://www.upraised.co/embark",
+				img: Upraised,
+			},
+			{
+				img: Github,
+				alt: "GitHub Ext.",
+				title: "GitHub Ext.",
+				link: "https://externship.github.in/",
+			},
+			{
+				img: ComingSoon,
+				alt: "coming_soon",
+				title: "More coming Soon....",
+				link: "/resource/domains/coming_soon",
+
+				disabled: true,
+			},
+		],
 	},
+
 	{
 		title: "Where to find help",
 		desc: "Ever find yourself trapped in a difficulty while working with a new technology? Access the best of the public forms for help!",
