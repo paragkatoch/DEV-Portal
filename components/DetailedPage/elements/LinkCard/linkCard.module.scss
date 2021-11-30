@@ -1,5 +1,5 @@
-.data_cards {
-	.data_cards_container {
+.link_cards {
+	.cards_container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		row-gap: 3rem;
@@ -7,10 +7,10 @@
 		max-width: 75vw;
 		padding-top: 2rem;
 
-		.data_card {
+		.link_card {
 			width: fit-content;
 
-			.data_card_container {
+			.card_container {
 				display: flex;
 				align-items: center;
 				justify-content: space-between;
@@ -87,19 +87,19 @@
 }
 
 @media screen and (max-width: 1200px) {
-	.data_cards .data_cards_container {
+	.link_cards .cards_container {
 		max-width: 90vw;
 	}
 }
 
 @media screen and (max-width: 968px) {
-	.data_cards .data_cards_container {
+	.link_cards .cards_container {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
 @media screen and (max-width: 658px) {
-	.data_cards .data_cards_container {
+	.link_cards .cards_container {
 		justify-items: center;
 		grid-template-columns: repeat(1, 1fr);
 	}

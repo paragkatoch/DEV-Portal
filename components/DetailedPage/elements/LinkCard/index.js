@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import { useWindowSize } from "../../utils/customHooks";
+import { useWindowSize } from "../../../../utils/customHooks";
 
 import Image from "next/image";
-import styles from "./styles/DataCards.module.scss";
+import styles from "./linkCard.module.scss";
 
-import YoutubeLink from "../../public/assets/youtube_link.svg";
-import WebLink from "../../public/assets/website_link.svg";
+import YoutubeLink from "../../../../public/assets/youtube_link.svg";
+import WebLink from "../../../../public/assets/website_link.svg";
 
-export default function DataCards(props) {
+export default function LinkCardsContainer(props) {
 	const defaultLimit = 3;
 
 	const [showMore, setShowMore] = useState(false);
@@ -24,28 +24,33 @@ export default function DataCards(props) {
 			: i === limit - 1 && array.length !== limit;
 	}
 
+	function showCard(i) {
+		return i < limit || showMore;
+	}
+
 	return (
-		<div className={styles.data_cards}>
-			<div className={styles.data_cards_container}>
-				{props.dataCards.map((dataCard, i, array) =>
-					i < limit || showMore ? (
-						<DataCard key={i} {...dataCard}>
-							{showButton(i, array) ? (
-								<ViewButton {...{ showMore, setShowMore }} />
-							) : null}
-						</DataCard>
-					) : null
+		<div className={styles.link_cards}>
+			<div className={styles.cards_container}>
+				{props.dataCards.map(
+					(dataCard, i, array) =>
+						showCard(i) && (
+							<LinkCard key={i} {...dataCard}>
+								{showButton(i, array) && (
+									<ViewButton {...{ showMore, setShowMore }} />
+								)}
+							</LinkCard>
+						)
 				)}
 			</div>
 		</div>
 	);
 }
 
-function DataCard(props) {
+function LinkCard(props) {
 	return (
-		<section className={styles.data_card}>
+		<section className={styles.link_card}>
 			<a href={props.link} rel="noreferrer" target="_blank">
-				<main className={styles.data_card_container}>
+				<main className={styles.card_container}>
 					<div className={styles.link_type}></div>
 
 					<section className={styles.data}>
@@ -58,27 +63,30 @@ function DataCard(props) {
 								priority="true"
 							/>
 						</div>
-
 						<p>{props.heading}</p>
 					</section>
 
 					<div className={styles.link_type}>
-						{props.type !== undefined ? (
-							<div className={styles.image_container}>
-								<Image
-									src={props.type === "youtube" ? YoutubeLink : WebLink}
-									alt="youtube"
-									sizes="10vw"
-									layout="responsive"
-								/>
-							</div>
-						) : null}
+						{props.type && <ImageContainer {...props} />}
 					</div>
 				</main>
 			</a>
 
 			{props.children}
 		</section>
+	);
+}
+
+function ImageContainer(props) {
+	return (
+		<div className={styles.image_container}>
+			<Image
+				src={props.type === "youtube" ? YoutubeLink : WebLink}
+				alt="youtube"
+				sizes="10vw"
+				layout="responsive"
+			/>
+		</div>
 	);
 }
 

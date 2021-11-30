@@ -1,4 +1,4 @@
-.detailed_card .detailed_card_container {
+.resource_card .card_container {
 	.card_header {
 		padding-top: 3rem;
 		padding-bottom: 2rem;
@@ -10,6 +10,9 @@
 			> .image_container {
 				width: clamp(36px, 6vw, 56px);
 				margin-right: 1.5rem;
+			}
+			.small_image {
+				width: clamp(30px, 5vw, 40px);
 			}
 
 			> h2,
@@ -31,7 +34,7 @@
 		}
 	}
 
-	.detailed_card_body {
+	.card_body {
 		.description {
 			margin-bottom: 2.5rem;
 
@@ -52,27 +55,27 @@
 }
 
 @media screen and (max-width: 1220px) {
-	.detailed_card .detailed_card_container .card_header {
+	.resource_card .card_container .card_header {
 		padding-top: 2.5rem;
 		padding-bottom: 1.8rem;
 	}
 }
 
 @media screen and (max-width: 1040px) {
-	.detailed_card .detailed_card_container {
+	.resource_card .card_container {
 		.card_header {
 			padding-top: 2rem;
 			padding-bottom: 1.5rem;
 		}
 
-		.detailed_card_body .description p {
+		.card_body .description p {
 			width: 80vw;
 		}
 	}
 }
 
 @media screen and (max-width: 658px) {
-	.detailed_card .detailed_card_container {
+	.resource_card .card_container {
 		.card_header {
 			a {
 				h2 {
@@ -87,7 +90,7 @@
 				}
 			}
 		}
-		.detailed_card_body .description p {
+		.card_body .description p {
 			font-size: clamp(15px, 3vw, 18px);
 		}
 	}
