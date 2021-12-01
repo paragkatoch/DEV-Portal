@@ -29,6 +29,7 @@ import DoDontDeveloper from "../public/assets/dodont_developer.svg";
 
 import CoreDegree from "../public/assets/core_degree.svg";
 import CPDegree from "../public/assets/cp_degree.svg";
+import RoadmapDegree from "../public/assets/roadmap_degree.svg";
 import BenefitsDegree from "../public/assets/benefits_degree.svg";
 
 import NetworkMisc from "../public/assets/network_misc.svg";
@@ -1036,24 +1037,32 @@ export const DeveloperModules = [
 // Degree Modules
 export const DegreeModules = [
 	{
-		title: "Keep CORE in line",
-		desc: "Better the foundation the longer you last in the battlefield.Check out some important CORE subjects that you must know as a developer.",
+		title: "Keep Core in line",
+		desc: "Top-rated core subjects with resources, roadmaps, and handouts for acing the interviews.",
 		img: CoreDegree,
 		alt: "core subjects",
 		kickoff: "Let's Go",
 		url: "/degree/core",
 	},
 	{
+		title: "Roadmap 1st to 8th Sem",
+		desc: "After evaluating the tech stacks you'll need, build your skills from the ground up. These structured pathways will help you decide what to start first.",
+		img: RoadmapDegree,
+		alt: "roadmap 1st to 8th sem",
+		kickoff: "Check Out!",
+		url: "https://whimsical.com/roadmap-from-1st-to-8th-semester-XkmVWQaGp8DdzyVCo5fc7s",
+	},
+	{
 		title: "Competitive Programming",
-		desc: "Are you a born fighter, do you really think you have the zeal to compete? Check out what Competitive Programming has for you.",
+		desc: "Along with a slew of other geeks from around the world, set a daily goal to improve. The best strategy to begin CP and improve your problem solving ability.",
 		img: CPDegree,
 		alt: "competitive programming",
-		kickoff: "Find Out",
+		kickoff: "Find Out!",
 		url: "/core/competitive",
 	},
 	{
 		title: "Benefits of being a student",
-		desc: "Ever thought about the perks of being a student? All your dream companies are sending free gifts for you! Let’s see what’s in the box.",
+		desc: "As a student, you have access to several complementary services that will aid you in your technical journey. Find all of them curated in one place.",
 		img: BenefitsDegree,
 		alt: "benefits of a student",
 		kickoff: "Let's Go",
