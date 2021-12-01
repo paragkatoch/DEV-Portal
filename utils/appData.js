@@ -891,7 +891,6 @@ export const DeveloperModules = [
 			},
 		],
 	},
-
 	{
 		title: "Where to find help",
 		desc: "Ever find yourself trapped in a difficulty while working with a new technology? Access the best of the public forms for help!",
@@ -1095,5 +1094,168 @@ export const MiscModules = [
 		alt: "must apps to have",
 		kickoff: "Show Me",
 		url: "/misc/apps",
+		pageType: "link-card-type",
+		data: [
+			{
+				alt: "must_apps",
+				heading: "Must have apps",
+				nextAlt: "productivity",
+				kickoff: "Find Out!",
+				description:
+					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
+			},
+			{
+				subHeading: "Productivity",
+				alt: "productivity",
+				description:
+					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
+				contents: [
+					{
+						img: AppMisc,
+						title: "Todoist",
+						link: "https://play.google.com/store/apps/details?id=com.todoist",
+						alt: "todoist",
+					},
+					{
+						img: AppMisc,
+						title: "Notion",
+						link: "https://play.google.com/store/apps/details?id=notion.id",
+						alt: "notion",
+					},
+					{
+						img: AppMisc,
+						title: "Trello",
+						link: "https://play.google.com/store/apps/details?id=com.trello&hl",
+						alt: "trello",
+					},
+					{
+						img: AppMisc,
+						title: "Canva",
+						link: "https://play.google.com/store/apps/details?id=com.canva.editor",
+						alt: "canva",
+					},
+					{
+						img: AppMisc,
+						title: "Forest",
+						link: "https://play.google.com/store/apps/details?id=cc.forestapp",
+						alt: "forest",
+					},
+				],
+			},
+			{
+				subHeading: "Personal Branding",
+				alt: "personal_branding",
+				description:
+					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
+				contents: [
+					{
+						img: AppMisc,
+						title: "LinkedIn",
+						link: "https://play.google.com/store/apps/details?id=com.linkedin.android",
+						alt: "linkedIn",
+					},
+					{
+						img: AppMisc,
+						title: "Instagram",
+						link: "https://play.google.com/store/apps/details?id=com.instagram.android",
+						alt: "instagram",
+					},
+					{
+						img: AppMisc,
+						title: "Behance",
+						link: "https://play.google.com/store/apps/details?id=com.behance.behance",
+						alt: "behance",
+					},
+					{
+						img: AppMisc,
+						title: "Twitter",
+						link: "https://play.google.com/store/apps/details?id=com.twitter.android",
+						alt: "twitter",
+					},
+					{
+						img: AppMisc,
+						title: "Pinterest",
+						link: "https://play.google.com/store/apps/details?id=com.pinterest",
+						alt: "pinterest",
+					},
+				],
+			},
+			{
+				subHeading: "Programming",
+				alt: "programming",
+				description:
+					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
+				contents: [
+					{
+						img: AppMisc,
+						title: "Codecademy Go",
+						link: "https://play.google.com/store/apps/details?id=com.ryzac.codecademygo",
+						alt: "codecademy_go",
+					},
+					{
+						img: AppMisc,
+						title: "Solo Learn",
+						link: "https://play.google.com/store/apps/details?id=com.sololearn",
+						alt: "solo_learn",
+					},
+					{
+						img: AppMisc,
+						title: "Data Camp",
+						link: "https://play.google.com/store/apps/details?id=com.datacamp",
+						alt: "data_camp",
+					},
+					{
+						img: AppMisc,
+						title: "GrassHopper",
+						link: "https://play.google.com/store/apps/details?id=com.area120.grasshopper",
+						alt: "grass_hopper",
+					},
+					{
+						img: AppMisc,
+						title: "Encode",
+						link: "https://play.google.com/store/apps/details?id=com.upskew.encode",
+						alt: "encode",
+					},
+				],
+			},
+			{
+				subHeading: "Finance",
+				alt: "finance",
+				description:
+					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
+				contents: [
+					{
+						img: AppMisc,
+						title: "IndMoney",
+						link: "https://indmoney.onelink.me/RmHC/d9995644",
+						alt: "ind_money",
+					},
+					{
+						img: AppMisc,
+						title: "GoDutch",
+						link: "https://invite.godutchpay.in/UT3J4Y",
+						alt: "go_dutch",
+					},
+					{
+						img: AppMisc,
+						title: "WazirX",
+						link: "https://wazirx.com/invite/36j4su6s",
+						alt: "wazir_x",
+					},
+					{
+						img: AppMisc,
+						title: "SmallCase",
+						link: "https://link.smallcase.com/LjxzkmF9Alb",
+						alt: "small_case",
+					},
+					{
+						img: AppMisc,
+						title: "AngelOne",
+						link: "https://tinyurl.com/yzd7mmfh",
+						alt: "angel_one",
+					},
+				],
+			},
+		],
 	},
 ];
