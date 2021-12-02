@@ -1,7 +1,9 @@
 import Head from "next/head";
-import DetailedPage from "../../../components/DetailedPage";
-import BasicFrame from "../../../components/Layouts/BasicFrame";
-import { DeveloperModules } from "../../../utils/appData";
+
+import DetailedPage from "@/components/DetailedPage";
+import BasicFrame from "@/components/Layouts/BasicFrame";
+
+import { DeveloperModules } from "@/utils/appData";
 
 export default function FindHelp(props) {
 	const data = DeveloperModules[2];

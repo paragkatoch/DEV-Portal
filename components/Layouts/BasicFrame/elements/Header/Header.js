@@ -5,8 +5,8 @@ import { useRouter } from "next/router";
 
 import styles from "./Header.module.scss";
 
-import { APP, NAV_DATA } from "../../../../../utils/appData";
-import { useClassName, useWindowSize } from "../../../../../utils/customHooks";
+import { APP, NAV_DATA } from "@/utils/appData";
+import { useClassName, useWindowSize } from "@/utils/customHooks";
 
 export default function Header(props) {
 	const [sideBarView, setSideBarView] = useState(false);

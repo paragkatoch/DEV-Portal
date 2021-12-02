@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Head from "next/head";
 
-import BasicFrame from "../../components/Layouts/BasicFrame";
+import BasicFrame from "@/components/Layouts/BasicFrame";
 import styles from "./styles/ContactComponent.module.scss";
 
-import LP from "../../public/assets/lp_contact.png";
-import PK from "../../public/assets/pk_contact.png";
-import UT from "../../public/assets/ut_contact.png";
+import LP from "@assets/lp_contact.png";
+import PK from "@assets/pk_contact.png";
+import UT from "@assets/ut_contact.png";
 
 const cardsData = [
 	{ text: "Lakshit Pant", src: LP, alt: "Lakshit Pant" },

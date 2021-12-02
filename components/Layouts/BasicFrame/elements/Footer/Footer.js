@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FOOTER_DATA } from "../../../../../utils/appData";
+import { FOOTER_DATA } from "@/utils/appData";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {

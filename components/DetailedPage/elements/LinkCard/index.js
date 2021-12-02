@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useWindowSize } from "../../../../utils/customHooks";
+import { useWindowSize } from "@/utils/customHooks";
 
 import Image from "next/image";
 import Link from "next/link";

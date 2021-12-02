@@ -1,8 +1,9 @@
 import Head from "next/head";
 
-import DetailedPage from "../../../../components/DetailedPage";
-import BasicFrame from "../../../../components/Layouts/BasicFrame";
-import { DomainData } from "../../../../utils/appData";
+import DetailedPage from "@/components/DetailedPage";
+import BasicFrame from "@/components/Layouts/BasicFrame";
+
+import { DomainData } from "@/utils/appData";
 
 export async function getStaticPaths() {
 	const paths = DomainData.courses

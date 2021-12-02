@@ -1,8 +1,9 @@
 import Head from "next/head";
-import DetailedPage from "../../../components/DetailedPage";
-import BasicFrame from "../../../components/Layouts/BasicFrame";
 
-import { MiscModules } from "../../../utils/appData";
+import DetailedPage from "@/components/DetailedPage";
+import BasicFrame from "@/components/Layouts/BasicFrame";
+
+import { MiscModules } from "@/utils/appData";
 
 export default function Apps() {
 	const data = MiscModules[3];

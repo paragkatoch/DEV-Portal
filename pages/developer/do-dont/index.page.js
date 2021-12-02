@@ -1,8 +1,9 @@
 import Head from "next/head";
-import DetailedPage from "../../../components/DetailedPage";
 
-import BasicFrame from "../../../components/Layouts/BasicFrame";
-import { DeveloperModules } from "../../../utils/appData";
+import DetailedPage from "@/components/DetailedPage";
+import BasicFrame from "@/components/Layouts/BasicFrame";
+
+import { DeveloperModules } from "@/utils/appData";
 
 export default function Dos_Donts() {
 	const data = DeveloperModules[3];

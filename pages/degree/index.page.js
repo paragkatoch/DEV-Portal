@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import BasicFrame from "../../components/Layouts/BasicFrame";
-import ModuleFrame from "../../components/Layouts/ModuleFrame";
+import BasicFrame from "@/components/Layouts/BasicFrame";
+import ModuleFrame from "@/components/Layouts/ModuleFrame";
 
-import { DegreeModules } from "../../utils/appData";
+import { DegreeModules } from "@/utils/appData";
 
 export default function Degree(props) {
 	return (

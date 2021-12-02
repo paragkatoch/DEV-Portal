@@ -1,9 +1,9 @@
 import Head from "next/head";
 
-import DomainCore from "../../../components/DomainCore";
-import BasicFrame from "../../../components/Layouts/BasicFrame";
+import DomainCore from "@/components/DomainCore";
+import BasicFrame from "@/components/Layouts/BasicFrame";
 
-import { DeveloperModules } from "../../../utils/appData";
+import { DeveloperModules } from "@/utils/appData";
 
 export default function Domain() {
 	const data = DeveloperModules[1];

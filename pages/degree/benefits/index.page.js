@@ -1,8 +1,8 @@
 import Head from "next/head";
-import DetailedPage from "../../../components/DetailedPage";
-import BasicFrame from "../../../components/Layouts/BasicFrame";
+import DetailedPage from "@/components/DetailedPage";
+import BasicFrame from "@/components/Layouts/BasicFrame";
 
-import { DegreeModules, MiscModules } from "../../../utils/appData";
+import { DegreeModules } from "@/utils/appData";
 
 export default function Apps() {
 	const data = DegreeModules[3];

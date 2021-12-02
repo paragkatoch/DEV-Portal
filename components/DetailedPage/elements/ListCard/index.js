@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import { useClassName } from "../../../../utils/customHooks";
+import { useClassName } from "@/utils/customHooks";
 
 import styles from "./listCard.module.scss";
 import Arrow from "../../../../public/assets/developer/arrow.svg";
