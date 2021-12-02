@@ -159,7 +159,7 @@ export const DomainData = {
 			img: WebDev,
 			pageType: "card-type",
 			alt: "web_development",
-			title: "Web Development",
+			title: "Web Dev",
 			link: "/resource/domains/web_development",
 			data: [
 				{
@@ -368,7 +368,7 @@ export const DomainData = {
 			img: AndroidDev,
 			alt: "android_development",
 			pageType: "card-type",
-			title: "Android Development",
+			title: "Android Dev",
 			link: "/resource/domains/android_development",
 			data: [
 				{
@@ -596,7 +596,7 @@ export const DomainData = {
 			img: CloudDev,
 			alt: "cloud_development",
 			pageType: "card-type",
-			title: "Cloud Development",
+			title: "Cloud Dev",
 			link: "/resource/domains/cloud_development",
 			data: [
 				{
@@ -724,7 +724,7 @@ export const DomainData = {
 			img: IOSDev,
 			alt: "ios_development",
 			pageType: "card-type",
-			title: "IOS Development",
+			title: "IOS Dev",
 			link: "/resource/domains/ios_development",
 
 			disabled: true,
@@ -732,7 +732,7 @@ export const DomainData = {
 		{
 			img: ComingSoon,
 			alt: "coming_soon",
-			title: "More coming Soon....",
+			title: "Coming Soon",
 			link: "/resource/domains/coming_soon",
 
 			disabled: true,
@@ -784,7 +784,7 @@ export const CoreData = {
 		{
 			img: OS,
 			alt: "operating system",
-			title: "Operating System",
+			title: "OS",
 			link: "/resource/core/operating_system",
 		},
 		{
@@ -809,7 +809,7 @@ export const CoreData = {
 		{
 			img: ComingSoon,
 			alt: "coming soon",
-			title: "More coming Soon....",
+			title: "Coming Soon",
 			link: "/developer/domain",
 			disabled: true,
 		},
@@ -1220,7 +1220,111 @@ export const DegreeModules = [
 		img: BenefitsDegree,
 		alt: "benefits of a student",
 		kickoff: "Let's Go",
-		url: "/core/benefits",
+		pageType: "link-card-type",
+		url: "/degree/benefits",
+		data: [
+			{
+				heading: "Student Benefits",
+				description:
+					"As a student, you have access to several complementary services that will aid you in your technical journey. Find all of them curated in one place.",
+				alt: "student_benefits",
+				nextAlt: "subscriptions",
+				kickOff: "Explore",
+			},
+			{
+				subHeading: "Subscriptions",
+				description: "",
+				alt: "subscriptions",
+				contents: [
+					{
+						img: BenefitsDegree,
+						title: "GitHub SP",
+						link: "https://education.github.com/pack",
+						alt: "gitHub_student_pack",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Auto-Desk",
+						link: "https://www.autodesk.com/education/edu-software/overview",
+						alt: "auto_desk",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Jetbrains",
+						link: "https://www.jetbrains.com/education/",
+						alt: "jetbrains",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Amazon Prime",
+						link: "https://www.amazon.in/amazonprime",
+						alt: "amazon_prime",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Spotify",
+						link: "https://www.spotify.com/in-en/student/",
+						alt: "spotify",
+					},
+				],
+			},
+			{
+				subHeading: "Discounts",
+				description: "",
+				alt: "discounts",
+				contents: [
+					{
+						img: BenefitsDegree,
+						title: "Apple",
+						link: "https://www.apple.com/in/shop/education-pricing",
+						alt: "apple",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Samsung",
+						link: "https://www.samsung.com/in/microsite/student-advantage/",
+						alt: "samsung",
+					},
+					{
+						img: BenefitsDegree,
+						title: "UniDays",
+						link: "https://www.myunidays.com/IN/en-IN",
+						alt: "uni_days",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Indigo",
+						link: "https://www.goindigo.in/add-on-services/student-discount.html",
+						alt: "indigo",
+					},
+					{
+						img: BenefitsDegree,
+						title: "SheerId",
+						link: "https://www.sheerid.com/shoppers/studentdeals/",
+						alt: "sheer_id",
+					},
+				],
+			},
+			{
+				subHeading: "Scholarships",
+				description: "",
+				alt: "scholarships",
+				contents: [
+					{
+						img: BenefitsDegree,
+						title: "NSP",
+						link: "https://scholarships.gov.in/",
+						alt: "NSP",
+					},
+					{
+						img: BenefitsDegree,
+						title: "Buddy4Study",
+						link: "https://www.buddy4study.com/",
+						alt: "buddy_4_study",
+					},
+				],
+			},
+		],
 	},
 ];
 
@@ -1228,27 +1332,121 @@ export const DegreeModules = [
 export const MiscModules = [
 	{
 		title: "Networking",
-		desc: 'Once a wise man said "Show me your friends and I\'ll tell you who you are." Connect with great people, learn how to network.',
+		desc: "We've got you covered if you want to connect with industry experts and meet some like-minded individuals.",
 		img: NetworkMisc,
 		alt: "networking between the world",
 		kickoff: "Let's Go",
 		url: "/misc/networking",
+		pageType: "list-button-type",
+		data: [
+			{
+				heading: "Networking",
+				description:
+					"We've got you covered if you want to connect with industry experts and meet some like-minded individuals.",
+				alt: "networking",
+				nextAlt: "linkedin_connection",
+				kickOff: "Let's do it!",
+			},
+			{
+				subHeading: "How to make a LinkedIn connection?",
+				description:
+					"Remember, the more first-degree connections you have, the more second-and third-degree connections you have, making you literally one connection away from millions of people.",
+				alt: "linkedin_connection",
+				link: "https://www.socialmediaexaminer.com/8-ways-to-grow-your-linkedin-connections",
+				kickOff: "Read More!",
+			},
+			{
+				subHeading: "How to write an email to a recruiter?",
+				description:
+					"A very important part of our professional careers is getting hired for the positions that we desire. To do that, the initial step is to contact recruiters by writing emails that will elicit the response that we are looking for.",
+				alt: "write_email",
+				link: "https://www.softwaretestinghelp.com/write-an-email-to-a-recruiter",
+				kickOff: "Read More!",
+			},
+		],
 	},
 	{
 		title: "Financial Advice",
-		desc: "Skills will get you glory, glory will get you money. Get in here for financial insights and build your assests. ",
+		desc: "It's far easier to make money than it is to manage and invest it effectively. Do you want to understand how to manage your own finances? The skill they did not teach you in high school or college.",
 		img: AdviceMisc,
 		alt: "financial advices",
 		kickoff: "Find Out",
-		url: "/misc/financial_advice",
+		url: "/misc/financial-advice",
+		pageType: "list-button-type",
+		data: [
+			{
+				heading: "Financial Advice",
+				description:
+					"It's far easier to make money than it is to manage and invest it effectively. Do you want to understand how to manage your own finances? The skill they did not teach you in high school or college.",
+				alt: "financial_advice",
+				nextAlt: "budgeting",
+				kickOff: "Find Out!",
+			},
+			{
+				subHeading: "Budgeting",
+				description:
+					"While you would be forgiven for being nose-deep in your books, it’s time to take a minute to reflect on how you’re managing your money. Do you have a budget? Or are you spending on the go?",
+				alt: "budgeting",
+				link: "https://students.ubc.ca/ubclife/21-money-saving-tips-tricks",
+				kickOff: "Read More!",
+			},
+			{
+				subHeading: "Stocks",
+				description:
+					"When people refer to the stock market, they are referring to several things and several exchanges where stocks are bought and sold. Broadly, the stock market is the aggregate of those stocks trading publicly, those that anyone can readily purchase on an exchange.",
+				alt: "stocks",
+				link: "https://www.bankrate.com/investing/stock-market-basics-for-beginners/",
+				kickOff: "Read More!",
+			},
+		],
 	},
 	{
 		title: "Personal Growth",
-		desc: "Having skills isn’t enough, you should know how to present them. Be Confident, check out some best resources here.",
+		desc: "Start forming these habits in order to improve your skills and become a better version of yourself. Use social media to your advantage and ace your interviews and meetup with exceptionally great people.",
 		img: GrowthMisc,
 		alt: "personal growth",
 		kickoff: "Let's Go",
-		url: "/misc/growth",
+		url: "/misc/personal-growth",
+		pageType: "list-button-type",
+		data: [
+			{
+				heading: "Personal Growth",
+				description:
+					"Start forming these habits in order to improve your skills and become a better version of yourself. Use social media to your advantage and ace your interviews and meetup with exceptionally great people.",
+				alt: "personal_growth",
+				nextAlt: "resume_building",
+				kickOff: "Let's Grow!",
+			},
+			{
+				subHeading: "Resume Building",
+				description:
+					"When applying for jobs, it's important to be fearless and show employers that you are a confident and qualified candidate. Having skills is important you must have something to show your skills. See here for some tips to beautify your resume. ",
+				alt: "resume_building",
+				link: "https://whimsical.com/placement-resume-checklist-by-love-babbar-QR1e9NcVXoNifZn4UBY649",
+			},
+			{
+				subHeading: "Soft-Skills",
+				description:
+					"To stand out in this competitive world, a student is required to hone many skills and abilities which is not a one-day job. A student needs to carve out these skills by practicing every day and this takes a long time.",
+				alt: "soft-skills",
+				link: "https://www.careerindia.com/tips/8-soft-skills-that-students-need-develop-today-020054.html",
+				kickOff: "Read More!",
+			},
+			{
+				subHeading: "How to use LinkedIn properly?",
+				description:
+					"Think of LinkedIn as your resume that never sleeps. But a lot more. It's your professional brand in the world. It’s the result you actually want up top when someone Googles you",
+				alt: "linkedin_properly",
+				link: "https://www.linkedin.com/pulse/10-tips-students-new-grads-linkedin-omar-garrio",
+			},
+			{
+				subHeading: "Mock Interview",
+				description:
+					"Interviews can be nerve-wracking affairs. The simplest questions that you did not prepare for can catch you off guard and ruin the flow of the conversation. Start giving interviews to prepare better.",
+				link: "https://www.careerindia.com/tips/8-soft-skills-that-students-need-develop-today-020054.html",
+				alt: "mock_interview",
+			},
+		],
 	},
 	{
 		title: "Must-have apps ",
