@@ -963,7 +963,7 @@ export const DeveloperModules = [
 					{
 						img: CodingDenHelp,
 						alt: "the_coding_den",
-						title: "The Coding Den",
+						title: "Coding Den",
 						link: "https://discord.com/invite/code",
 					},
 					{
@@ -972,12 +972,7 @@ export const DeveloperModules = [
 						title: "Reactiflux",
 						link: "https://discord.gg/reactiflux",
 					},
-					{
-						img: HactoberfestHelp,
-						alt: "hacktoberfest",
-						title: "HacktoberFest",
-						link: "https://discord.com/invite/hacktoberfest",
-					},
+
 					{
 						img: MLHHelp,
 						alt: "mlh",
@@ -989,6 +984,12 @@ export const DeveloperModules = [
 						alt: "cs50",
 						title: "CS 50",
 						link: "https://discord.com/invite/cs50",
+					},
+					{
+						img: HactoberfestHelp,
+						alt: "hacktoberfest",
+						title: "Hacktober Fest",
+						link: "https://discord.com/invite/hacktoberfest",
 					},
 				],
 			},
