@@ -4,7 +4,6 @@ import Image from "next/image";
 import styles from "./CourseCard.module.scss";
 
 export default function CourseCard(props) {
-	console.log("course", props);
 	return (
 		<section
 			className={`${styles.course_card} ${

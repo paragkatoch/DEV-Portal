@@ -2,11 +2,16 @@ import CourseCard from "./elements/CourseCard";
 import styles from "./styles/DomainCore.module.scss";
 
 export default function DomainCore(props) {
+	console.log(props);
 	return (
 		<article className={styles.domain_core}>
-			<p>{props.title}</p>
+			<p>{props.title ? props.title : props.subHeading}</p>
 
-			<main className={`${props.className}-cards ${styles.cards_section}`}>
+			<main
+				className={`${props.className ? props.className : props.alt}-cards ${
+					styles.cards_section
+				}`}
+			>
 				{props.courses.map((course, i) => (
 					<CourseCard key={i} {...course} />
 				))}
