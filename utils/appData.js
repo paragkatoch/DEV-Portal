@@ -79,6 +79,18 @@ import HactoberfestHelp from "../public/assets/developer/help/hacktoberfest.svg"
 import IBMHelp from "../public/assets/developer/help/ibm.svg";
 import CodeBuddiesHelp from "../public/assets/developer/help/codebuddies.svg";
 
+import PrimeBenefits from "../public/assets/degree/benefits/amazonprime.svg";
+import AppleDarkBenefits from "../public/assets/degree/benefits/appledark.svg";
+import AutoDeskBenefits from "../public/assets/degree/benefits/Autodesk.svg";
+import BuddyBenefits from "../public/assets/degree/benefits/buddy.svg";
+import GOVBenefits from "../public/assets/degree/benefits/gov.svg";
+import IndigoBenefits from "../public/assets/degree/benefits/indigo.svg";
+import JetBrainsBenefits from "../public/assets/degree/benefits/jetbrains.svg";
+import SamsungBenefits from "../public/assets/degree/benefits/samsung.svg";
+import SheerIdBenefits from "../public/assets/degree/benefits/sheerid.svg";
+import SpotifyBenefits from "../public/assets/degree/benefits/spotify.svg";
+import UniDaysBenefits from "../public/assets/degree/benefits/unidays.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -1233,35 +1245,36 @@ export const DegreeModules = [
 			},
 			{
 				subHeading: "Subscriptions",
-				description: "",
+				description:
+					"Unleash the power of students, grab these subscriptions, and get hands-on with more tools for free. Top subscriptions you should have while being a student.  ",
 				alt: "subscriptions",
 				contents: [
 					{
-						img: BenefitsDegree,
+						img: Github,
 						title: "GitHub SP",
 						link: "https://education.github.com/pack",
 						alt: "gitHub_student_pack",
 					},
 					{
-						img: BenefitsDegree,
+						img: AutoDeskBenefits,
 						title: "Auto-Desk",
 						link: "https://www.autodesk.com/education/edu-software/overview",
 						alt: "auto_desk",
 					},
 					{
-						img: BenefitsDegree,
+						img: JetBrainsBenefits,
 						title: "Jetbrains",
 						link: "https://www.jetbrains.com/education/",
 						alt: "jetbrains",
 					},
 					{
-						img: BenefitsDegree,
+						img: PrimeBenefits,
 						title: "Amazon Prime",
 						link: "https://www.amazon.in/amazonprime",
 						alt: "amazon_prime",
 					},
 					{
-						img: BenefitsDegree,
+						img: SpotifyBenefits,
 						title: "Spotify",
 						link: "https://www.spotify.com/in-en/student/",
 						alt: "spotify",
@@ -1270,35 +1283,36 @@ export const DegreeModules = [
 			},
 			{
 				subHeading: "Discounts",
-				description: "",
+				description:
+					"Unleash the power of students, grab these subscriptions, and get hands-on with more tools for free. Top subscriptions you should have while being a student.",
 				alt: "discounts",
 				contents: [
 					{
-						img: BenefitsDegree,
+						img: AppleDarkBenefits,
 						title: "Apple",
 						link: "https://www.apple.com/in/shop/education-pricing",
 						alt: "apple",
 					},
 					{
-						img: BenefitsDegree,
+						img: SamsungBenefits,
 						title: "Samsung",
 						link: "https://www.samsung.com/in/microsite/student-advantage/",
 						alt: "samsung",
 					},
 					{
-						img: BenefitsDegree,
+						img: UniDaysBenefits,
 						title: "UniDays",
 						link: "https://www.myunidays.com/IN/en-IN",
 						alt: "uni_days",
 					},
 					{
-						img: BenefitsDegree,
+						img: IndigoBenefits,
 						title: "Indigo",
 						link: "https://www.goindigo.in/add-on-services/student-discount.html",
 						alt: "indigo",
 					},
 					{
-						img: BenefitsDegree,
+						img: SheerIdBenefits,
 						title: "SheerId",
 						link: "https://www.sheerid.com/shoppers/studentdeals/",
 						alt: "sheer_id",
@@ -1307,17 +1321,18 @@ export const DegreeModules = [
 			},
 			{
 				subHeading: "Scholarships",
-				description: "",
+				description:
+					"Focus on skills, we'll take care of your expenses. Prove yourself and avail what you deserve with these scholarships. Fill these scholarships applications to compensate for your expenses.",
 				alt: "scholarships",
 				contents: [
 					{
-						img: BenefitsDegree,
+						img: GOVBenefits,
 						title: "NSP",
 						link: "https://scholarships.gov.in/",
 						alt: "NSP",
 					},
 					{
-						img: BenefitsDegree,
+						img: BuddyBenefits,
 						title: "Buddy4Study",
 						link: "https://www.buddy4study.com/",
 						alt: "buddy_4_study",
