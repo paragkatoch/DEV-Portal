@@ -928,7 +928,7 @@ export const DeveloperModules = [
 			{
 				img: ComingSoon,
 				alt: "coming_soon",
-				title: "More coming Soon....",
+				title: "Coming Soon",
 				link: "/resource/domains/coming_soon",
 
 				disabled: true,

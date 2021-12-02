@@ -21,7 +21,7 @@ export default function NotFoundComponent() {
 						src="/assets/NotFound.png"
 						width="697"
 						layout="responsive"
-						sizes="70vw"
+						sizes="50vw"
 						height="345.5"
 						alt="Not Found"
 						priority={true}

@@ -2,7 +2,6 @@ import CourseCard from "./elements/CourseCard";
 import styles from "./styles/DomainCore.module.scss";
 
 export default function DomainCore(props) {
-	console.log(props);
 	return (
 		<article className={styles.domain_core}>
 			<p>{props.title ? props.title : props.subHeading}</p>
