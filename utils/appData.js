@@ -897,8 +897,67 @@ export const DeveloperModules = [
 		desc: "Ever find yourself trapped in a difficulty while working with a new technology? Access the best of the public forms for help!",
 		img: HelpDeveloper,
 		alt: "find help",
+		pageType: "list-button-type",
 		kickoff: "Let's Go",
 		url: "/developer/find-help",
+		data: [
+			{
+				heading: "Where to find help!",
+				description:
+					"Top active channels for networking and the best solutions for your upcoming queries. Get excited about rewards and greater opportunities that come along with them.",
+				alt: "find_help",
+				nextAlt: "discord",
+				kickOff: "Lets find out",
+			},
+			{
+				subHeading: "Discord Servers",
+				description:
+					"Do you ever find yourself in a situation and feel compelled to help others? Join the greatest networking chances with Discord servers and add some fun activities to your learning hustle alongside getting help and helping others.",
+				alt: "discord",
+				link: "/resource/find-help/discord",
+				kickOff: "Explore them",
+			},
+			{
+				subHeading: "Slack Channels",
+				description:
+					"Join Slack Channels for the best networking opportunities and to add some fun activities to your learning journey while obtaining aid and helping others. Join the glory here by asking the experts, assisting newbies, and growing alongside others.",
+				alt: "slack",
+				link: "/developer/find-help/slack",
+				kickOff: "Explore them",
+			},
+			{
+				subHeading: "Twitter",
+				description:
+					"Twitter connects a lot more stuff than it appears. Duh! I've got your back, so let's talk about it in a tweet. Twitter is an all-in-one platform for getting information, learning new things, spreading awareness, and connecting with professionals.",
+				alt: "twitter",
+				link: "https://leif.me/how-software-developers-use-twitter/",
+				kickOff: "Find Out",
+			},
+			{
+				subHeading: "Reddit",
+				description:
+					"Reddit is an amazing resource for beginner programmers. It's a goldmine of references to valuable materials and a place where a lot of great folks gather to give each other feedback.",
+				alt: "reddit",
+				link: "https://dev.to/blorente/reddit-for-programmers-4ejk",
+				kickOff: "Find Out",
+			},
+			{
+				subHeading: "Stack Exchange",
+				description:
+					"Stated another way, Stack Overflow questions almost all have actual source code in the questions or answers. It’s much rarer (though certainly OK) for a Programmers question to contain source code.",
+				alt: "stack_exchange",
+				link: "https://stackoverflow.blog/2010/12/17/introducing-programmers-stackexchange-com/",
+				kickOff: "Find Out",
+			},
+			{
+				subHeading: "Google",
+				description:
+					"Don't act as if you know everything unless your name is Google. Googling is a skill that can get you anything and make you money out of nothing. Mountains are required, long staircases do not produce good hikers. As a result, you must learn how to Google the information, and you will quickly rise to the top.",
+				alt: "google",
+				link: "https://betterprogramming.pub/11-tricks-to-master-the-art-of-googling-as-a-software-developer-2e00b7568b7d?gi=bfd96acde91c",
+				kickOff: "Find Out",
+			},
+		],
 	},
 	{
 		title: "Do's and Don'ts",

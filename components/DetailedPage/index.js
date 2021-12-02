@@ -6,6 +6,7 @@ import courseStyles from "../DomainCore/styles/DomainCore.module.scss";
 import ListCard from "./elements/ListCard";
 
 import CourseCard from "../DomainCore/elements/CourseCard";
+import BasicButton from "../BasicButton";
 
 export default function DetailedPage(props) {
 	let PageType;
@@ -13,6 +14,7 @@ export default function DetailedPage(props) {
 	if (props.pageType === "card-type") PageType = CardType;
 	else if (props.pageType === "list-type") PageType = ListType;
 	else if (props.pageType === "link-card-type") PageType = LinkCardType;
+	else if (props.pageType === "list-button-type") PageType = ListButtonType;
 	else throw new Error("invalid page type");
 
 	return <PageType {...props} />;
@@ -59,6 +61,20 @@ function LinkCardType(props) {
 								))}
 							</main>
 						</article>
+					)}
+				</ResourceCard>
+			))}
+		</main>
+	);
+}
+
+function ListButtonType(props) {
+	return (
+		<main className={styles.detailed_page}>
+			{props.data.map((card, i) => (
+				<ResourceCard key={i} {...card}>
+					{card.link && (
+						<BasicButton kickoff={card.kickOff ?? "Let's Go"} url={card.link} />
 					)}
 				</ResourceCard>
 			))}
