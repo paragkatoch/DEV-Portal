@@ -48,6 +48,26 @@ import MLH from "../public/assets/developer/opportunities/mlh.svg";
 import MLSA from "../public/assets/developer/opportunities/mlsa.svg";
 import Upraised from "../public/assets/developer/opportunities/upraised.svg";
 
+import BehanceMisc from "../public/assets/misc/apps/Misc.-behance.svg";
+import CodeAcademyMisc from "../public/assets/misc/apps/Misc.-codecademy.svg";
+import DataCampMisc from "../public/assets/misc/apps/Misc.-datacamp.svg";
+import EncodeMisc from "../public/assets/misc/apps/Misc.-encode.svg";
+import ForestMisc from "../public/assets/misc/apps/Misc.-forest.svg";
+import GoDutchMisc from "../public/assets/misc/apps/Misc.-godutch.svg";
+import GrasshopperMisc from "../public/assets/misc/apps/Misc.-grasshopper.svg";
+import IndMoneyMisc from "../public/assets/misc/apps/Misc.-indmoney.svg";
+import InstagramMisc from "../public/assets/misc/apps/Misc.-instagram.svg";
+import LinkedInMisc from "../public/assets/misc/apps/Misc.-linkedin.svg";
+import NotionMisc from "../public/assets/misc/apps/Misc.-notion.svg";
+import PintrestMisc from "../public/assets/misc/apps/Misc.-pintrest.svg";
+import SmallCaseMisc from "../public/assets/misc/apps/Misc.-smallcase.svg";
+import SoloLearnMisc from "../public/assets/misc/apps/Misc.-sololearn.svg";
+import TodoistMisc from "../public/assets/misc/apps/Misc.-todoist.svg";
+import TrelloMisc from "../public/assets/misc/apps/Misc.-trello.svg";
+import TwitterMisc from "../public/assets/misc/apps/Misc.-twitter.svg";
+import CanvaMisc from "../public/assets/misc/apps/Misc.-canva.svg";
+import WazirxMisc from "../public/assets/misc/apps/Misc.-wazirx.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -1179,31 +1199,31 @@ export const MiscModules = [
 					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
 				contents: [
 					{
-						img: AppMisc,
+						img: TodoistMisc,
 						title: "Todoist",
 						link: "https://play.google.com/store/apps/details?id=com.todoist",
 						alt: "todoist",
 					},
 					{
-						img: AppMisc,
+						img: NotionMisc,
 						title: "Notion",
 						link: "https://play.google.com/store/apps/details?id=notion.id",
 						alt: "notion",
 					},
 					{
-						img: AppMisc,
+						img: TrelloMisc,
 						title: "Trello",
 						link: "https://play.google.com/store/apps/details?id=com.trello&hl",
 						alt: "trello",
 					},
 					{
-						img: AppMisc,
+						img: CanvaMisc,
 						title: "Canva",
 						link: "https://play.google.com/store/apps/details?id=com.canva.editor",
 						alt: "canva",
 					},
 					{
-						img: AppMisc,
+						img: ForestMisc,
 						title: "Forest",
 						link: "https://play.google.com/store/apps/details?id=cc.forestapp",
 						alt: "forest",
@@ -1217,31 +1237,31 @@ export const MiscModules = [
 					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
 				contents: [
 					{
-						img: AppMisc,
+						img: LinkedInMisc,
 						title: "LinkedIn",
 						link: "https://play.google.com/store/apps/details?id=com.linkedin.android",
 						alt: "linkedIn",
 					},
 					{
-						img: AppMisc,
+						img: InstagramMisc,
 						title: "Instagram",
 						link: "https://play.google.com/store/apps/details?id=com.instagram.android",
 						alt: "instagram",
 					},
 					{
-						img: AppMisc,
+						img: BehanceMisc,
 						title: "Behance",
 						link: "https://play.google.com/store/apps/details?id=com.behance.behance",
 						alt: "behance",
 					},
 					{
-						img: AppMisc,
+						img: TwitterMisc,
 						title: "Twitter",
 						link: "https://play.google.com/store/apps/details?id=com.twitter.android",
 						alt: "twitter",
 					},
 					{
-						img: AppMisc,
+						img: PintrestMisc,
 						title: "Pinterest",
 						link: "https://play.google.com/store/apps/details?id=com.pinterest",
 						alt: "pinterest",
@@ -1255,31 +1275,31 @@ export const MiscModules = [
 					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
 				contents: [
 					{
-						img: AppMisc,
+						img: CodeAcademyMisc,
 						title: "Codecademy Go",
 						link: "https://play.google.com/store/apps/details?id=com.ryzac.codecademygo",
 						alt: "codecademy_go",
 					},
 					{
-						img: AppMisc,
+						img: SoloLearnMisc,
 						title: "Solo Learn",
 						link: "https://play.google.com/store/apps/details?id=com.sololearn",
 						alt: "solo_learn",
 					},
 					{
-						img: AppMisc,
+						img: DataCampMisc,
 						title: "Data Camp",
 						link: "https://play.google.com/store/apps/details?id=com.datacamp",
 						alt: "data_camp",
 					},
 					{
-						img: AppMisc,
+						img: GrasshopperMisc,
 						title: "GrassHopper",
 						link: "https://play.google.com/store/apps/details?id=com.area120.grasshopper",
 						alt: "grass_hopper",
 					},
 					{
-						img: AppMisc,
+						img: EncodeMisc,
 						title: "Encode",
 						link: "https://play.google.com/store/apps/details?id=com.upskew.encode",
 						alt: "encode",
@@ -1293,34 +1313,28 @@ export const MiscModules = [
 					"Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
 				contents: [
 					{
-						img: AppMisc,
+						img: IndMoneyMisc,
 						title: "IndMoney",
 						link: "https://indmoney.onelink.me/RmHC/d9995644",
 						alt: "ind_money",
 					},
 					{
-						img: AppMisc,
+						img: GoDutchMisc,
 						title: "GoDutch",
 						link: "https://invite.godutchpay.in/UT3J4Y",
 						alt: "go_dutch",
 					},
 					{
-						img: AppMisc,
+						img: WazirxMisc,
 						title: "WazirX",
 						link: "https://wazirx.com/invite/36j4su6s",
 						alt: "wazir_x",
 					},
 					{
-						img: AppMisc,
+						img: SmallCaseMisc,
 						title: "SmallCase",
 						link: "https://link.smallcase.com/LjxzkmF9Alb",
 						alt: "small_case",
-					},
-					{
-						img: AppMisc,
-						title: "AngelOne",
-						link: "https://tinyurl.com/yzd7mmfh",
-						alt: "angel_one",
 					},
 				],
 			},
