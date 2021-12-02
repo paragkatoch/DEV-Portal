@@ -37,15 +37,15 @@ function ListCard({ title, description }) {
 	}
 	return (
 		<main className={styles.list_card}>
-			<header className={styles.list_header}>
-				<button className={buttonStyle} onClick={onButtonClick}>
+			<button className={buttonStyle} onClick={onButtonClick}>
+				<header className={styles.list_header}>
 					<div className={styles.image_container}>
 						<Image src={Arrow} alt="arrow" layout="responsive" />
 					</div>
 
 					<h3>{title}</h3>
-				</button>
-			</header>
+				</header>
+			</button>
 
 			{showBody && (
 				<main className={bodyStyle}>

@@ -7,41 +7,40 @@
 		margin-bottom: 2rem;
 		transition: all 1s;
 
-		.list_header {
-			border-top: 1px solid #00596b;
-			padding-top: 1rem;
-			z-index: 10;
+		.closed .image_container {
+			transform: rotate(90deg);
+		}
+		button {
+			width: 100%;
+			cursor: pointer;
+			background-color: transparent;
 
-			.closed .image_container {
-				transform: rotate(90deg);
+			.image_container {
+				transition: all 0.3s;
+				width: 30px;
 			}
 
-			button {
+			h3 {
+				padding-left: 1rem;
+
+				text-align: left;
+				font-family: Roboto;
+				font-weight: 600;
+				font-size: clamp(16px, 3vw, 21px);
+				line-height: 142%;
+				letter-spacing: 0.01em;
+				color: #00839e;
+			}
+
+			.list_header {
 				display: flex;
 				align-items: center;
 
-				cursor: pointer;
-				background-color: transparent;
-
-				.image_container {
-					transition: all 0.3s;
-					width: 30px;
-				}
-
-				h3 {
-					padding-left: 1rem;
-
-					text-align: left;
-					font-family: Roboto;
-					font-weight: 600;
-					font-size: clamp(16px, 3vw, 21px);
-					line-height: 142%;
-					letter-spacing: 0.01em;
-					color: #00839e;
-				}
+				border-top: 1px solid #00596b;
+				padding-top: 1rem;
+				z-index: 10;
 			}
 		}
-
 		.hidden {
 			z-index: 1;
 			opacity: 0;
@@ -84,10 +83,9 @@
 		.list_container .list_card {
 			margin-bottom: 1rem;
 
-			.list_header {
-				padding-top: 0.5rem;
-
-				button {
+			button {
+				.list_header {
+					padding-top: 0.5rem;
 					.image_container {
 						width: 24px;
 					}
