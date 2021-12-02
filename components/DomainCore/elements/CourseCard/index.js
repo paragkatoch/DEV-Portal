@@ -23,6 +23,7 @@ export default function CourseCard(props) {
 						/>
 					</div>
 					<p>{props.title}</p>
+					<div className={styles.balancer}></div>
 				</a>
 			</Link>
 		</section>
