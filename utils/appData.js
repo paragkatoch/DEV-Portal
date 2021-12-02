@@ -68,6 +68,17 @@ import TwitterMisc from "../public/assets/misc/apps/Misc.-twitter.svg";
 import CanvaMisc from "../public/assets/misc/apps/Misc.-canva.svg";
 import WazirxMisc from "../public/assets/misc/apps/Misc.-wazirx.svg";
 
+import CS50Help from "../public/assets/developer/help/cs50.svg";
+import AirByteHelp from "../public/assets/developer/help/Discord-airbyte.svg";
+import MLHHelp from "../public/assets/developer/help/Discord-mlh.svg";
+import PeoplePeopleHelp from "../public/assets/developer/help/Discord-peoplepeople.svg";
+import ReactfluxHelp from "../public/assets/developer/help/Discord-reactflux.svg";
+import CodingDenHelp from "../public/assets/developer/help/Discord-codingden.svg";
+import DOKHelp from "../public/assets/developer/help/dok.svg";
+import HactoberfestHelp from "../public/assets/developer/help/hacktoberfest.svg";
+import IBMHelp from "../public/assets/developer/help/ibm.svg";
+import CodeBuddiesHelp from "../public/assets/developer/help/codebuddies.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -936,14 +947,78 @@ export const DeveloperModules = [
 				alt: "discord",
 				link: "/resource/find-help/discord",
 				kickOff: "Explore them",
+				courses: [
+					{
+						img: CodingDenHelp,
+						alt: "the_coding_den",
+						title: "The Coding Den",
+						link: "https://discord.com/invite/code",
+					},
+					{
+						img: ReactfluxHelp,
+						alt: "reactiflux",
+						title: "Reactiflux",
+						link: "https://discord.gg/reactiflux",
+					},
+					{
+						img: HactoberfestHelp,
+						alt: "hacktoberfest",
+						title: "HacktoberFest",
+						link: "https://discord.com/invite/hacktoberfest",
+					},
+					{
+						img: MLHHelp,
+						alt: "mlh",
+						title: "MLH",
+						link: "https://discord.com/invite/mlh",
+					},
+					{
+						img: CS50Help,
+						alt: "cs50",
+						title: "CS 50",
+						link: "https://discord.com/invite/cs50",
+					},
+				],
 			},
 			{
 				subHeading: "Slack Channels",
 				description:
 					"Join Slack Channels for the best networking opportunities and to add some fun activities to your learning journey while obtaining aid and helping others. Join the glory here by asking the experts, assisting newbies, and growing alongside others.",
 				alt: "slack",
-				link: "/developer/find-help/slack",
+				link: "/resource/find-help/slack",
 				kickOff: "Explore them",
+				courses: [
+					{
+						img: PeoplePeopleHelp,
+						alt: "people_people",
+						title: "People-People",
+						link: "https://join.slack.com/t/people-people/shared_invite/zt-yx0jb4h0-nA83VQROc5UjW~i13yJ6Mw",
+					},
+					{
+						img: CodeBuddiesHelp,
+						alt: "code_buddies",
+						title: "Code Buddies",
+						link: "https://join.slack.com/t/codebuddies/shared_invite/zt-5qw5abuu-w~uBmSCv4hlA3Svq~oHDiw",
+					},
+					{
+						img: DOKHelp,
+						alt: "dok",
+						title: "DOK",
+						link: "https://join.slack.com/t/dokcommunity/shared_invite/zt-g3ui5r0g-jDKz5dhh2W1ayElqwKYYAg",
+					},
+					{
+						img: AirByteHelp,
+						alt: "airbytehq",
+						title: "Air Byte",
+						link: "https://join.slack.com/t/airbytehq/shared_invite/zt-ylm7owy8-hFjNm_Czb8FC455cMh75EQ",
+					},
+					{
+						img: IBMHelp,
+						alt: "ibm",
+						title: "IBM",
+						link: "https://join.slack.com/t/ibmdevelopercommunity/shared_invite/zt-mfzblbcm-ppkowx0i3vfKBngvjODKhg",
+					},
+				],
 			},
 			{
 				subHeading: "Twitter",
