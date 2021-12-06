@@ -91,6 +91,12 @@ import SheerIdBenefits from "../public/assets/degree/benefits/sheerid.svg";
 import SpotifyBenefits from "../public/assets/degree/benefits/spotify.svg";
 import UniDaysBenefits from "../public/assets/degree/benefits/unidays.svg";
 
+import YT_1 from "../public/assets/youtube/yt_1.svg";
+import YT_2 from "../public/assets/youtube/yt_2.svg";
+import YT_3 from "../public/assets/youtube/yt_3.svg";
+import YT_4 from "../public/assets/youtube/yt_4.svg";
+import YT_5 from "../public/assets/youtube/yt_5.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -210,35 +216,35 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "FreeCodeCamp",
-							img: WebDev,
+							img: YT_1,
 							alt: "freecodecamp",
 							link: "https://www.youtube.com/c/Freecodecamp",
 							type: "youtube",
 						},
 						{
 							heading: "Traversy Media",
-							img: WebDev,
+							img: YT_2,
 							alt: "traversy Media",
 							link: "https://www.youtube.com/c/TraversyMedia",
 							type: "youtube",
 						},
 						{
 							heading: "CS50",
-							img: WebDev,
+							img: YT_3,
 							alt: "CS50",
 							link: "https://www.youtube.com/c/cs50",
 							type: "youtube",
 						},
 						{
 							heading: "Fireship",
-							img: WebDev,
+							img: YT_4,
 							alt: "fireship",
 							link: "https://www.youtube.com/c/Fireship",
 							type: "youtube",
 						},
 						{
 							heading: "The Net Ninza",
-							img: WebDev,
+							img: YT_5,
 							alt: "the net ninza",
 							link: "https://www.youtube.com/c/TheNetNinja",
 							type: "youtube",
@@ -419,46 +425,40 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "PhilippLackner",
-							img: AndroidDev,
+							img: YT_1,
 							alt: "PhilippLackner",
 							link: "https://www.youtube.com/c/PhilippLackner/featured",
 							type: "youtube",
 						},
 						{
 							heading: "tutorialsEU",
-							img: AndroidDev,
+							img: YT_2,
 							alt: "tutorialsEU",
 							link: "https://www.youtube.com/channel/UCGjv_3tbzJ8yKuvacoqmO-Q",
 							type: "youtube",
 						},
 						{
 							heading: "Rahul Pandey",
-							img: AndroidDev,
+							img: YT_3,
 							alt: "Rahul Pandey",
 							link: "https://www.youtube.com/c/RahulPandeyrkp",
 							type: "youtube",
 						},
 						{
 							heading: "Freecodecamp",
-							img: AndroidDev,
+							img: YT_4,
 							alt: "Freecodecamp",
 							link: "https://www.youtube.com/c/Freecodecamp",
 							type: "youtube",
 						},
 						{
 							heading: "CodeWithHarry",
-							img: AndroidDev,
+							img: YT_5,
 							alt: "CodeWithHarry",
 							link: "https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww",
 							type: "youtube",
 						},
-						{
-							heading: "Neat Roots",
-							img: AndroidDev,
-							alt: "Neat Roots",
-							link: "https://www.youtube.com/channel/UCyVD1TyR6Me7Yl7C2F5DMYA",
-							type: "Androidsite",
-						},
+
 						{
 							heading: "Journal Dev",
 							img: AndroidDev,
@@ -473,13 +473,7 @@ export const DomainData = {
 							link: "https://guides.codepath.com/android",
 							type: "website",
 						},
-						{
-							heading: "Frontend Masters",
-							img: AndroidDev,
-							alt: "frontend Masters",
-							link: "",
-							type: "website",
-						},
+
 						{
 							heading: "Kotlin",
 							img: AndroidDev,
