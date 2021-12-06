@@ -12,10 +12,7 @@ export default function Apps() {
 		<BasicFrame>
 			<Head>
 				<title>Must have Apps</title>
-				<meta
-					name="description"
-					content="Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket."
-				/>
+				<meta name="description" content={data.desc} />
 			</Head>
 
 			<DetailedPage {...data} />

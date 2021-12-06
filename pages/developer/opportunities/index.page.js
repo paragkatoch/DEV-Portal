@@ -12,10 +12,7 @@ export default function Domain() {
 		<BasicFrame>
 			<Head>
 				<title>Opportunities</title>
-				<meta
-					name="description"
-					content="Never miss an opportunity with us, get regular updates on fore coming events and programs."
-				/>
+				<meta name="description" content={data.desc} />
 			</Head>
 
 			<DomainCore {...data} />

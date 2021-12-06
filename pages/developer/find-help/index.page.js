@@ -11,10 +11,7 @@ export default function FindHelp(props) {
 		<BasicFrame>
 			<Head>
 				<title>Find Help</title>
-				<meta
-					name="description"
-					content="This portion of the Dev Portal contains in-depth information about the core subjects of your college degree and some perks of being a student."
-				/>
+				<meta name="description" content={data.desc} />
 			</Head>
 
 			<DetailedPage {...data} />

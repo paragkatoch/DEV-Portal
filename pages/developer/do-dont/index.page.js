@@ -11,10 +11,7 @@ export default function Dos_Donts() {
 		<BasicFrame>
 			<Head>
 				<title>Do&apos;s & Dont&apos;s</title>
-				<meta
-					name="description"
-					content="Getting into a college and finding yourself in a dilemma, now we've got the exact tried and tested things to make sure you're on the right path to glory."
-				/>
+				<meta name="description" content={data.desc} />
 			</Head>
 
 			<DetailedPage {...data} />

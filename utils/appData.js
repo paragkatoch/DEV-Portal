@@ -97,6 +97,12 @@ import YT_3 from "../public/assets/youtube/yt_3.svg";
 import YT_4 from "../public/assets/youtube/yt_4.svg";
 import YT_5 from "../public/assets/youtube/yt_5.svg";
 
+import BasicRoadmap from "../public/assets/roadmap/basic_roadmap.svg";
+import DetailedRoadmap from "../public/assets/roadmap/detailed_roadmap.svg";
+import DocIcon from "../public/assets/roadmap/DocIcon.svg";
+import QuizIcon from "../public/assets/roadmap/QuizIcon.svg";
+import ProjIcon from "../public/assets/roadmap/ProjIcon.svg";
+
 // App Data
 export const APP = {
 	NAME: "DEV-Portal",
@@ -196,13 +202,13 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Frontend",
-							img: WebDev,
+							img: BasicRoadmap,
 							alt: "frontend",
 							link: "https://roadmap.sh/frontend",
 						},
 						{
 							heading: "Backend",
-							img: WebDev,
+							img: DetailedRoadmap,
 							alt: "backend",
 							link: "https://roadmap.sh/backend",
 						},
@@ -251,42 +257,42 @@ export const DomainData = {
 						},
 						{
 							heading: "FreeCodeCamp",
-							img: WebDev,
+							img: DocIcon,
 							alt: "freecodecamp",
 							link: "https://www.freecodecamp.org/",
 							type: "website",
 						},
 						{
 							heading: "MDN",
-							img: WebDev,
+							img: DocIcon,
 							alt: "MDN",
 							link: "https://developer.mozilla.org/en-US/",
 							type: "website",
 						},
 						{
 							heading: "W3Schools",
-							img: WebDev,
+							img: DocIcon,
 							alt: "w3schools",
 							link: "https://www.w3schools.com/",
 							type: "website",
 						},
 						{
 							heading: "Frontend Masters",
-							img: WebDev,
+							img: DocIcon,
 							alt: "frontend Masters",
 							link: "https://frontendmasters.com/",
 							type: "website",
 						},
 						{
 							heading: "Educative",
-							img: WebDev,
+							img: DocIcon,
 							alt: "educative",
 							link: "https://www.educative.io/",
 							type: "website",
 						},
 						{
 							heading: "Wes Bos",
-							img: WebDev,
+							img: DocIcon,
 							alt: "wes bos",
 							link: "https://wesbos.com/",
 							type: "website",
@@ -300,49 +306,49 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Code Editor",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Online Code Editor (React)",
 							link: "https://www.crio.do/projects/react-code-editor/",
 						},
 						{
 							heading: "Codechef Notifier",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Codechef Notifier",
 							link: "https://www.crio.do/projects/javascript-codechef-notifier/",
 						},
 						{
 							heading: "Amazon clone",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Amazon clone using React",
 							link: "https://www.crio.do/projects/react-amazon-clone/",
 						},
 						{
 							heading: "Sorting Visualizer",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Sorting Visualizer",
 							link: "https://www.crio.do/projects/javascript-sorting-visualiser/",
 						},
 						{
 							heading: "Slack clone",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Slack clone",
 							link: "https://www.crio.do/projects/react-slack-clone/",
 						},
 						{
 							heading: "Connect4",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Connect4",
 							link: "https://www.crio.do/projects/python-multiplayer-game-connect4/",
 						},
 						{
 							heading: "Rat in a Maze",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "Rat in a Maze",
 							link: "https://www.crio.do/projects/react-ratinamaze/",
 						},
 						{
 							heading: "FuzzyURLs",
-							img: WebDev,
+							img: ProjIcon,
 							alt: "FuzzyURLs",
 							link: "https://www.crio.do/projects/python-django-url-shortener/",
 						},
@@ -356,25 +362,25 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "FreeCodeCamp",
-							img: WebDev,
+							img: QuizIcon,
 							alt: "freecodecamp",
 							link: "https://www.freecodecamp.org/",
 						},
 						{
 							heading: "Frontend Mentor",
-							img: WebDev,
+							img: QuizIcon,
 							alt: "Frontend Mentor",
 							link: "https://www.frontendmentor.io/",
 						},
 						{
 							heading: "100DaysCSS",
-							img: WebDev,
+							img: QuizIcon,
 							alt: "100DaysCSS",
 							link: "https://100dayscss.com/",
 						},
 						{
 							heading: "CSSBattle",
-							img: WebDev,
+							img: QuizIcon,
 							alt: "CSSBattle",
 							link: "https://cssbattle.dev/",
 						},
@@ -405,13 +411,13 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Basic",
-							img: AndroidDev,
+							img: BasicRoadmap,
 							alt: "basic",
 							link: "https://roadmap.sh/android",
 						},
 						{
 							heading: "Detailed",
-							img: AndroidDev,
+							img: DetailedRoadmap,
 							alt: "detailed",
 							link: "https://www.androidelements.com/",
 						},
@@ -461,14 +467,14 @@ export const DomainData = {
 
 						{
 							heading: "Journal Dev",
-							img: AndroidDev,
+							img: DocIcon,
 							alt: "Journal Dev",
 							link: "https://www.journaldev.com/",
 							type: "website",
 						},
 						{
 							heading: "Codepath",
-							img: AndroidDev,
+							img: DocIcon,
 							alt: "codepath",
 							link: "https://guides.codepath.com/android",
 							type: "website",
@@ -476,21 +482,21 @@ export const DomainData = {
 
 						{
 							heading: "Kotlin",
-							img: AndroidDev,
+							img: DocIcon,
 							alt: "kotlin",
 							link: "https://kotlinlang.org/",
 							type: "website",
 						},
 						{
 							heading: "Typealias",
-							img: AndroidDev,
+							img: DocIcon,
 							alt: "typealias",
 							link: "https://typealias.com/start/",
 							type: "website",
 						},
 						{
 							heading: "Data Flair",
-							img: AndroidDev,
+							img: DocIcon,
 							alt: "Data Flair",
 							link: "https://data-flair.training/blogs/android-tutorials-home/",
 							type: "website",
@@ -504,49 +510,49 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Companion App",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "Companion App",
 							link: "https://www.crio.do/projects/flutter-companion-app/",
 						},
 						{
 							heading: "Contact App",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "Contact App",
 							link: "https://www.crio.do/projects/java-android-contact-app/",
 						},
 						{
 							heading: "Breakout Ball Game",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "Breakout Ball Game",
 							link: "https://www.crio.do/projects/java-breakout-game/",
 						},
 						{
 							heading: "QuizUp",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "QuizUp - A Quiz Application",
 							link: "https://www.crio.do/projects/android-java-quiz-application/",
 						},
 						{
 							heading: "Instagram Clone",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "Instagram Clone",
 							link: "https://www.crio.do/projects/kotlin-android-instagram-clone/",
 						},
 						{
 							heading: "Notes & Password Manager",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "Notes & Password Manager",
 							link: "https://www.crio.do/projects/java-android-notes-password-manager/",
 						},
 						{
 							heading: "Ecommerce platform",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "A Hyperlocal Ecommerce platform",
 							link: "https://www.crio.do/projects/flutter-hyperlocal-ecommerce/",
 						},
 						{
 							heading: "bFit",
-							img: AndroidDev,
+							img: ProjIcon,
 							alt: "bFit-A Cognitive Game",
 							link: "https://www.crio.do/projects/java-android-game/",
 						},
@@ -560,37 +566,37 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Tutorials Point",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "Tutorials Point",
 							link: "https://www.tutorialspoint.com/android/android_online_test.htm",
 						},
 						{
 							heading: "WsCubetech",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "WsCubetech",
 							link: "https://www.wscubetech.com/quiz-test-android",
 						},
 						{
 							heading: "Javatpoint",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "javatpoint",
 							link: "https://www.javatpoint.com/android-quiz",
 						},
 						{
 							heading: "Google",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "Google",
 							link: "https://developer.android.com/courses/quizzes/android-kotlin-fundamental",
 						},
 						{
 							heading: "Pro Android Dev",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "Pro Android Dev",
 							link: "https://proandroiddev.com/android-quiz-1-1f475c7170fd",
 						},
 						{
 							heading: "Career Guru 99",
-							img: AndroidDev,
+							img: QuizIcon,
 							alt: "Career Guru 99",
 							link: "https://career.guru99.com/android-quiz/",
 						},
@@ -621,13 +627,13 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Basic",
-							img: CloudDev,
+							img: BasicRoadmap,
 							alt: "basic",
 							link: "https://whimsical.com/cloud-support-associate-roadmap-S2unty6W9pqmMRGq77h2jk",
 						},
 						{
 							heading: "Detailed",
-							img: CloudDev,
+							img: DetailedRoadmap,
 							alt: "detailed",
 							link: "https://www.notion.so/Getting-started-with-Cloud-ffbff1b34ca04038abb388a3e8936bb2",
 						},
@@ -641,42 +647,42 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "AWS",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "AWS",
 							link: "https://www.awseducate.com/registration",
 							type: "website",
 						},
 						{
 							heading: "Microsoft",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "Microsoft",
 							link: "https://docs.microsoft.com/en-ie/learn/",
 							type: "website",
 						},
 						{
 							heading: "AWS Reskill",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "AWS Reskill",
 							link: "https://awsreskill.com/",
 							type: "website",
 						},
 						{
 							heading: "Techgig",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "Techgig",
 							link: "https://www.techgig.com/googlecloud",
 							type: "website",
 						},
 						{
 							heading: "Azure",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "Azure",
 							link: "https://azure.microsoft.com/en-in/",
 							type: "website",
 						},
 						{
 							heading: "Coursera",
-							img: CloudDev,
+							img: DocIcon,
 							alt: "Coursera",
 							link: "https://www.coursera.org/courses?query=gcp",
 							type: "website",
@@ -691,25 +697,25 @@ export const DomainData = {
 					dataCards: [
 						{
 							heading: "Tech Gig",
-							img: CloudDev,
+							img: QuizIcon,
 							alt: "Tech Gig",
 							link: "https://www.techgig.com/googlecloud",
 						},
 						{
 							heading: "Qwiklabs",
-							img: CloudDev,
+							img: QuizIcon,
 							alt: "Qwiklabs",
 							link: "https://www.qwiklabs.com/",
 						},
 						{
 							heading: "Cloud Academy",
-							img: CloudDev,
+							img: QuizIcon,
 							alt: "Cloud Academy",
 							link: "https://cloudacademy.com/blog/test-your-cloud-knowledge-on-aws-azure-or-google-cloud-platform/",
 						},
 						{
 							heading: "KonfHub",
-							img: CloudDev,
+							img: QuizIcon,
 							alt: "KonfHub",
 							link: "https://quiz.konfhub.com/",
 						},
@@ -862,7 +868,7 @@ export const HomeModules = [
 export const DeveloperModules = [
 	{
 		title: "Follow your domain",
-		desc: "You know what you have inside, we have got you a list of top grossing domains that you must explore before getting started.",
+		desc: "Choose cautiously because your domain will determine your future aspects. We've compiled a list of the best domains in the industry for you to consider before getting started.",
 		img: DomainDeveloper,
 		alt: "domains",
 		kickoff: "Let's Go",
@@ -931,7 +937,7 @@ export const DeveloperModules = [
 	},
 	{
 		title: "Where to find help",
-		desc: "Ever find yourself trapped in a difficulty while working with a new technology? Access the best of the public forms for help!",
+		desc: "Top active channels for networking and the best solutions for your upcoming queries. Get excited about rewards and greater opportunities that come along with them.",
 		img: HelpDeveloper,
 		alt: "find help",
 		pageType: "list-button-type",
@@ -1063,7 +1069,7 @@ export const DeveloperModules = [
 	},
 	{
 		title: "Do's and Don'ts",
-		desc: "New exposures are like two sides of a coin, therefore it's best to be prepared. Check out some Do's and Don'ts for a fresher.",
+		desc: "Getting into a college and finding yourself in a dilemma, now we've got the exact tried and tested things to make sure you're on the right path to glory.",
 		img: DoDontDeveloper,
 		alt: "people busy in mobile device",
 		kickoff: "Show Me",
@@ -1460,7 +1466,7 @@ export const MiscModules = [
 	},
 	{
 		title: "Must-have apps ",
-		desc: "If you spend most of your time on your phone, check out some of the best apps, you must have to be more productive.",
+		desc: "Top-rated apps to help you on your technical journey to improve your skills, invest in yourself and take control of your life from your pocket.",
 		img: AppMisc,
 		alt: "must apps to have",
 		kickoff: "Show Me",
