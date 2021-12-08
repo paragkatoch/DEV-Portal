@@ -44,7 +44,7 @@ import GDSC from "../public/assets/developer/opportunities/gdsc.svg";
 import Github from "../public/assets/developer/opportunities/github.svg";
 import GSOC from "../public/assets/developer/opportunities/gsoc.svg";
 import Hacktoberfest from "../public/assets/developer/opportunities/hactoberfest.svg";
-import MLH from "../public/assets/developer/opportunities/mlh.svg";
+import MLH from "../public/assets/developer/opportunities/mlh.png";
 import MLSA from "../public/assets/developer/opportunities/mlsa.svg";
 import Upraised from "../public/assets/developer/opportunities/upraised.svg";
 
@@ -301,7 +301,8 @@ export const DomainData = {
 				},
 				{
 					subHeading: "Project Ideas",
-					description: "No Description",
+					description:
+						"To get started with hands-on learning, look here for some of the finest project guides. Jump in and get stacked with some new experiments with the projects provided, which are categorised from novice to expert.",
 					alt: "project_ideas",
 					dataCards: [
 						{
@@ -506,7 +507,8 @@ export const DomainData = {
 				{
 					subHeading: "Project Ideas",
 					alt: "project_ideas",
-					description: "No Description",
+					description:
+						"To get started with hands-on learning, look here for some of the finest project guides. Jump in and get stacked with some new experiments with the projects provided, which are categorised from novice to expert.",
 					dataCards: [
 						{
 							heading: "Companion App",
