@@ -7,6 +7,7 @@ import styles from "./styles/ContactComponent.module.scss";
 import LP from "@/assets/lp_contact.png";
 import PK from "@/assets/pk_contact.png";
 import UT from "@/assets/ut_contact.png";
+import BasicButton from "@/components/BasicButton";
 
 const cardsData = [
 	{ text: "Lakshit Pant", src: LP, alt: "Lakshit Pant" },
@@ -78,9 +79,10 @@ function ContactComponent(props) {
 					</p>
 				</main>
 
-				<button className={styles.button}>
-					<a href="https://github.com/preIdiot/OneDevPlace">Count me in!</a>
-				</button>
+				<BasicButton
+					kickoff="Count me in!"
+					url="https://github.com/preIdiot/OneDevPlace"
+				/>
 			</section>
 
 			<section className={`${styles.contact_credit} ${styles.contact_section}`}>
@@ -96,9 +98,7 @@ function ContactComponent(props) {
 					</p>
 				</main>
 
-				<button className={styles.button}>
-					<a href="/contact/contribute">Thank them!</a>
-				</button>
+				<BasicButton kickoff="Thank them!" url="/contact/contribute" />
 			</section>
 
 			<section className={`${styles.made_by} ${styles.contact_section}`}>
