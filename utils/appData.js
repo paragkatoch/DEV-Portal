@@ -619,7 +619,7 @@ export const DomainData = {
 					heading: "Cloud Development",
 					nextAlt: "roadmap",
 					description:
-						"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Android domain.",
+						"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Cloud domain.",
 				},
 				{
 					subHeading: "Roadmap",
