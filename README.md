@@ -16,3 +16,7 @@ This project is to provide our upcoming batches of software engineers with a pro
 - **Code Management**: Github
 - **Project Management**: Notion, Google Docs
 - **IDE’s**: Visual Studio Code
+
+## Test it here:
+
+- [Dev-Portal](https://dev--portal.vercel.app)
