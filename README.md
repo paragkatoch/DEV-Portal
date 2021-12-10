@@ -10,9 +10,9 @@ This project is to provide our upcoming batches of software engineers with a pro
 ## Technologies to be used
 
 - **Tech Stack**: MERN with NEXT.js
-- **Programming Languages**: Javascript, Kotlin
+- **Programming Languages**: Javascript
 - **Design**: Figma, Whimsical
 - **Database**: MongoDB
 - **Code Management**: Github
 - **Project Management**: Notion, Google Docs
-- **IDE’s**: Visual Studio Code, Android Studio
+- **IDE’s**: Visual Studio Code
