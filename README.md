@@ -1,4 +1,4 @@
-# OneDevPlace
+# Dev-Portal
 
 This project is to provide our upcoming batches of software engineers with a proper path to follow and help them avoid the mistakes we made during our journey.
 
