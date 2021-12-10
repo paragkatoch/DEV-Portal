@@ -900,7 +900,7 @@ export const DeveloperModules = [
 			{
 				alt: "MLSA",
 				title: "MLSA",
-				link: "https://developers.google.com/community/gdsc/leads",
+				link: "https://studentambassadors.microsoft.com/",
 				img: MLSA,
 			},
 			{
@@ -1083,7 +1083,7 @@ export const DeveloperModules = [
 				heading: "Do's and Dont's",
 				nextAlt: "dos",
 				description:
-					"We've compiled a reference list, a roadmap to follow, the best project ideas, and some entertaining quizzes to test your knowledge for the Web domain.",
+					"Getting into a college and finding yourself in a dilemma, now we've got the exact tried and tested things to make sure you're on the right path to glory.",
 			},
 			{
 				img: ThumbsUp,
@@ -1461,7 +1461,7 @@ export const MiscModules = [
 				subHeading: "Mock Interview",
 				description:
 					"Interviews can be nerve-wracking affairs. The simplest questions that you did not prepare for can catch you off guard and ruin the flow of the conversation. Start giving interviews to prepare better.",
-				link: "https://www.careerindia.com/tips/8-soft-skills-that-students-need-develop-today-020054.html",
+				link: "https://www.makeuseof.com/tag/mock-interview-websites/",
 				alt: "mock_interview",
 			},
 		],

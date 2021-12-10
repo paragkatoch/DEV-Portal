@@ -7,6 +7,7 @@ import { DeveloperModules } from "@/utils/appData";
 
 export default function Dos_Donts() {
 	const data = DeveloperModules[3];
+
 	return (
 		<BasicFrame>
 			<Head>
