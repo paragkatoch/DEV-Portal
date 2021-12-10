@@ -10,9 +10,24 @@ import UT from "@/assets/ut_contact.png";
 import BasicButton from "@/components/BasicButton";
 
 const cardsData = [
-	{ text: "Lakshit Pant", src: LP, alt: "Lakshit Pant" },
-	{ text: "Parag Katoch", src: PK, alt: "Parag Katoch" },
-	{ text: "Umair Tariq", src: UT, alt: "Umair Tariq" },
+	{
+		text: "Lakshit Pant",
+		src: LP,
+		alt: "Lakshit Pant",
+		link: "https://www.linkedin.com/in/lakshit-pant-103519191",
+	},
+	{
+		text: "Parag Katoch",
+		src: PK,
+		alt: "Parag Katoch",
+		link: "https://github.com/preIdiot",
+	},
+	{
+		text: "Umair Tariq",
+		src: UT,
+		alt: "Umair Tariq",
+		link: "https://github.com/bingJunior",
+	},
 ];
 
 export default function Contact(props) {
@@ -44,19 +59,25 @@ function ContactComponent(props) {
 					<div className={styles.cards_container}>
 						{cardsData.map((cardInfo, i) => (
 							<section key={i} className={styles.card}>
-								<main className={styles.card_container}>
-									<div className={styles.image_container}>
-										<Image
-											src={cardInfo.src}
-											alt={cardInfo.alt}
-											layout="responsive"
-											sizes="10vw"
-											priority={true}
-										/>
-									</div>
+								<a
+									href={cardInfo.link}
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<main className={styles.card_container}>
+										<div className={styles.image_container}>
+											<Image
+												src={cardInfo.src}
+												alt={cardInfo.alt}
+												layout="responsive"
+												sizes="10vw"
+												priority={true}
+											/>
+										</div>
 
-									<p>{cardInfo.text}</p>
-								</main>
+										<p>{cardInfo.text}</p>
+									</main>
+								</a>
 							</section>
 						))}
 					</div>
