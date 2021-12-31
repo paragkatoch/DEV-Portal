@@ -65,7 +65,9 @@ function LinkCard(props) {
 									priority="true"
 								/>
 							</div>
-							<p>{props.heading}</p>
+							<p>{`${props.heading.substring(0, 18)}${
+								props.heading.length > 18 ? ".." : ""
+							}`}</p>
 						</section>
 
 						<div className={styles.link_type}>

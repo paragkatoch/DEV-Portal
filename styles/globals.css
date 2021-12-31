@@ -3,6 +3,10 @@ a {
 	text-decoration: none;
 }
 
+.app-main {
+	padding-bottom: 3rem !important;
+}
+
 body {
 	margin: 0;
 	font-family: "Open Sans", sans-serif;

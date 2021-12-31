@@ -7,7 +7,7 @@ import CloudDev from "../public/assets/courses/domain/clouddev.png";
 import IOSDev from "../public/assets/courses/domain/iosdev.png";
 
 import ADA from "../public/assets/courses/core/ada.png";
-import CSO from "../public/assets/courses/core/cso.png";
+import COA from "../public/assets/courses/core/cso.png";
 import CyberSecurity from "../public/assets/courses/core/cybersecurity.png";
 import DBMS from "../public/assets/courses/core/dbms.png";
 import DSAlgo from "../public/assets/courses/core/dsalgo.png";
@@ -15,6 +15,7 @@ import Maths from "../public/assets/courses/core/maths.png";
 import OOPS from "../public/assets/courses/core/oops.png";
 import OS from "../public/assets/courses/core/os.png";
 import SystemDesign from "../public/assets/courses/core/systemdesign.png";
+import Networking from "../public/assets/courses/core/networking.png";
 import TOC from "../public/assets/courses/core/toc.png";
 
 import DeveloperHome from "../public/assets/developer_home.svg";
@@ -761,64 +762,775 @@ export const CoreData = {
 	courses: [
 		{
 			img: DSAlgo,
-			alt: "data structures and algorithm",
+			alt: "ds_algo",
 			title: "DS and Algo",
 			link: "/resource/core/ds_algo",
+			pageType: "card-type",
+			data: [
+				{
+					img: DSAlgo,
+					alt: "dsa",
+					heading: "Data Structure and Algorithms",
+					nextAlt: "resources",
+					description:
+						"Data structure and algorithms is a branch of computer science that deals with creating machine-efficient and optimized computer programs.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Code with harry",
+							img: YT_1,
+							alt: "code with harry",
+							link: "https://www.youtube.com/watch?v=5_5oE5lgrhw&list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
+						},
+						{
+							heading: "Freecodecamp",
+							img: YT_2,
+							alt: "freecodecamp",
+							link: "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+						},
+						{
+							heading: "Kunal Kushwaha",
+							img: YT_3,
+							alt: "kunal kushwaha",
+							link: "https://www.youtube.com/watch?v=wn49bJOYAZM&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+						},
+						{
+							heading: "Luv",
+							img: YT_4,
+							alt: "luv",
+							link: "https://www.youtube.com/c/LuvIsMe/playlists",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/103/106103069/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Data Structures and Algorithms Made Easy in JAVA",
+							img: DocIcon,
+							alt: "Data Structures and Algorithms Made Easy in JAVA",
+							link: "https://www.amazon.in/Data-Structures-Algorithms-Made-Easy/dp/8192107558/",
+						},
+						{
+							heading: "Data Structure Using C",
+							img: DocIcon,
+							alt: "Data Structure Using C",
+							link: "https://www.amazon.in/dp/9390455391/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: ADA,
-			alt: "analysis and design of algorithm",
+			alt: "ada",
 			title: "ADA",
 			link: "/resource/core/ada",
+			pageType: "card-type",
+			data: [
+				{
+					img: ADA,
+					alt: "ada",
+					heading: "ADA",
+					nextAlt: "resources",
+					description:
+						"An Algorithm is a sequence of steps to solve a problem. Design and Analysis of Algorithm is very important for designing algorithm to solve different types of problems in the branch of computer science and information technology.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Abdul Bari",
+							img: YT_1,
+							alt: "abdul bari",
+							link: "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
+						},
+						{
+							heading: "Gate smashers",
+							img: YT_2,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=u8JZ9gU5o4g&list=PLxCzCOWd7aiHcmS4i14bI0VrMbZTUvlTa",
+						},
+						{
+							heading: "NPTEL",
+							img: YT_3,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/101/106101059/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Design and Analysis of Computer Algorithms",
+							img: DocIcon,
+							alt: "Design and Analysis of Computer Algorithms",
+							link: "https://www.amazon.in/Analysis-Algorithms-Addison-Wesley-Information-Processing/dp/0201000296",
+						},
+						{
+							heading: "Introduction to the Design and Analysis of Algorithms",
+							img: DocIcon,
+							alt: "Introduction to the Design and Analysis of Algorithms",
+							link: "https://www.amazon.in/Introduction-Design-Analysis-Algorithms-Levitin/dp/0132316811",
+						},
+						{
+							heading: "Algorithms: Design and Analysis",
+							img: DocIcon,
+							alt: "Algorithms: Design and Analysis",
+							link: "https://www.amazon.in/Algorithms-Harsh-Bhasin/dp/0199456666/",
+						},
+						{
+							heading: "Design and Analysis of Algorithms",
+							img: DocIcon,
+							alt: "Design and Analysis of Algorithms",
+							link: "https://www.amazon.in/Design-Analysis-Algorithms-S-Sridhar/dp/0198093691",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: CyberSecurity,
-			alt: "cyber security",
+			alt: "cyber_security",
 			title: "Cyber Security",
 			link: "/resource/core/cyber_security",
+			pageType: "card-type",
+			data: [
+				{
+					img: CyberSecurity,
+					alt: "cyber security",
+					heading: "Cyber Security",
+					nextAlt: "resources",
+					description:
+						"Cyber security is the application of technologies, processes and controls to protect systems, networks, programs, devices and data from cyber attacks. It aims to reduce the risk of cyber attacks and protect against the unauthorized exploitation of systems, networks and technologies.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Edureka",
+							img: YT_1,
+							alt: "edureka",
+							link: "https://www.youtube.com/watch?v=nzZkKoREEGo ",
+						},
+						{
+							heading: "Simplilearn",
+							img: YT_2,
+							alt: "simplilearn",
+							link: "https://www.youtube.com/watch?v=PlHnamdwGmw",
+						},
+						{
+							heading: "My CS",
+							img: YT_3,
+							alt: "my cs",
+							link: "https://www.youtube.com/watch?v=U_P23SqJaDc",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "The Art of Invisibility",
+							img: DocIcon,
+							alt: "The Art of Invisibility",
+							link: "https://www.amazon.in/Art-Invisibility-Kevin-Mitnick/dp/0316380504",
+						},
+						{
+							heading: "Introduction to Cyber Security",
+							img: DocIcon,
+							alt: "Introduction to Cyber Security",
+							link: "https://www.amazon.in/Introduction-Cyber-Security-Guide-World/dp/1637816421/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: SystemDesign,
-			alt: "system design",
+			alt: "system_design",
 			title: "System Design",
 			link: "/resource/core/system_design",
+			pageType: "card-type",
+			data: [
+				{
+					img: SystemDesign,
+					alt: "system design",
+					heading: "System design",
+					nextAlt: "resources",
+					description:
+						"System design is the process of defining the components, modules, interfaces, and data for a system to satisfy specified requirements. System development is the process of creating or altering systems, along with the processes, practices, models, and methodologies used to develop them.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gaurav Sen",
+							img: YT_1,
+							alt: "gaurav sen",
+							link: "https://www.youtube.com/watch?v=SqcXvc3ZmRU&list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+						},
+						{
+							heading: "SDE Skills",
+							img: YT_2,
+							alt: "sde skills",
+							link: "https://www.youtube.com/watch?v=hsKwiIc7EXU&list=PLBtMh4xfa9FHSMKKgPZcPfoPbZmND5PC-",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/106/106106095/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "The System Design Interview",
+							img: DocIcon,
+							alt: "The System Design Interview",
+							link: "https://www.amazon.in/System-Design-Interview-2nd/dp/1637541457/",
+						},
+						{
+							heading: "The 8051 Microcontroller and Embedded Systems",
+							img: DocIcon,
+							alt: "The 8051 Microcontroller and Embedded Systems",
+							link: "https://www.amazon.in/8051-Microcontroller-Embedded-Systems-Assembly/dp/8131710262/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: Maths,
 			alt: "maths",
 			title: "Maths",
 			link: "/resource/core/maths",
+			pageType: "card-type",
+			data: [
+				{
+					img: Maths,
+					alt: "engineering mathematics",
+					heading: "Engineering Mathematics",
+					nextAlt: "resources",
+					description:
+						"Engineering mathematics is the art of applying maths to complex real-world problems; combining mathematical theory, practical engineering and scientific computing to address today's technological challenges.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Last moment tuition",
+							img: YT_1,
+							alt: "last moment tuition",
+							link: "https://www.youtube.com/playlist?list=PL0s3O6GgLL5cf5ylEoaZbESlcQlFccRnt",
+						},
+						{
+							heading: "Kreatryx GATE - EE, ECE, IN",
+							img: YT_2,
+							alt: "kreatryx gate",
+							link: "https://www.youtube.com/watch?v=0WCel-zgkns&list=PLs5_Rtf2P2r5Z9eX1nZ1BwjYCVBQjibN8",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/103/106103015/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Higher Engineering Mathematics",
+							img: DocIcon,
+							alt: "Higher Engineering Mathematics",
+							link: "https://www.amazon.in/Higher-Engineering-Mathematics-B-S-Grewal/dp/8193328493/",
+						},
+						{
+							heading: "Advanced Engineering Mathematics",
+							img: DocIcon,
+							alt: "Advanced Engineering Mathematics",
+							link: "https://www.amazon.in/Advanced-Engineering-Mathematics-10ed-ISV/dp/8126554231/",
+						},
+					],
+				},
+			],
 		},
 		{
-			img: CSO,
-			alt: "cso",
-			title: "CSO",
-			link: "/resource/core/cso",
+			img: COA,
+			alt: "coa",
+			title: "COA",
+			link: "/resource/core/coa",
+			pageType: "card-type",
+			data: [
+				{
+					img: COA,
+					alt: "coa",
+					heading: "Computer Organization and Architecture",
+					nextAlt: "resources",
+					description:
+						"The computer organization and architecture ( COA ) is one of the most important and comprehensive subjects that includes many foundational concepts and knowledge used in the design of a computer system.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gate Smashers",
+							img: YT_1,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=L9X7XXfHYdU&list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX",
+						},
+						{
+							heading: "Gate Academy",
+							img: YT_2,
+							alt: "gate academy",
+							link: "https://www.youtube.com/watch?v=Vq4mP6lVyII&list=PLir19lgiavA06OxyTP2dM0ApRs_0aClQu",
+						},
+						{
+							heading: "Knowledge Gate",
+							img: YT_3,
+							alt: "knowledge gate",
+							link: "https://www.youtube.com/watch?v=-dbUlq6jsYE",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/104/106104073/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Computer System Architecture",
+							img: DocIcon,
+							alt: "Computer System Architecture",
+							link: "https://www.amazon.in/Computer-System-Architecture-Update-Pearson/dp/9332585601/",
+						},
+						{
+							heading: "Computer Organization and Architecture",
+							img: DocIcon,
+							alt: "Computer Organization and Architecture",
+							link: "https://www.amazon.in/Computer-Organization-Architecture-10-Stallings/dp/933257040X/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: OS,
-			alt: "operating system",
+			alt: "operating_system",
 			title: "OS",
 			link: "/resource/core/operating_system",
+			pageType: "card-type",
+			data: [
+				{
+					img: OS,
+					alt: "os",
+					heading: "Operating System",
+					nextAlt: "resources",
+					description:
+						"An operating system(OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gate Smashers",
+							img: YT_1,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=bkSWJJZNgf8&list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
+						},
+						{
+							heading: "Jenny's Lecture",
+							img: YT_2,
+							alt: "jenny's lecture",
+							link: "https://www.youtube.com/watch?v=RozoeWzT7IM&list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa",
+						},
+						{
+							heading: "Education 4u",
+							img: YT_3,
+							alt: "education 4u",
+							link: "https://www.youtube.com/watch?v=aF2uRmibwco&list=PLrjkTql3jnm9U1tSPnPQWQGIGNkUwBFv-",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/108/106108101/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Operating System Concepts",
+							img: DocIcon,
+							alt: "Operating System Concepts",
+							link: "https://www.amazon.in/Operating-System-Concepts-Abraham-Silberschatz/dp/B074G46V8F/",
+						},
+						{
+							heading: "Operating Systems: Concepts",
+							img: DocIcon,
+							alt: "Operating Systems: Concepts",
+							link: "https://www.amazon.in/Operating-Systems-Concepts-Sreehitha-Reddy/dp/1646789814/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: TOC,
-
-			alt: "theory of computation",
+			alt: "toc",
 			title: "TOC",
 			link: "/resource/core/toc",
+			pageType: "card-type",
+			data: [
+				{
+					img: TOC,
+					alt: "toc",
+					heading: "Theory of Computation",
+					nextAlt: "resources",
+					description:
+						"In theoretical computer science and mathematics, the theory of computation is the branch that deals with what problems can be solved on a model of computation, using an algorithm, how efficiently they can be solved or to what degree.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gate Smashers",
+							img: YT_1,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=XslI8h7cGDs&list=PLxCzCOWd7aiFM9Lj5G9G_76adtyb4ef7i",
+						},
+						{
+							heading: "Education 4u",
+							img: YT_2,
+							alt: "education 4u",
+							link: "https://www.youtube.com/watch?v=dCiZZiqVv9w&list=PLrjkTql3jnm_TWSXXvWX1_jX-L6f1QJSx",
+						},
+						{
+							heading: "Asha Khilrani",
+							img: YT_3,
+							alt: "asha khilrani",
+							link: "https://www.youtube.com/watch?v=krqEICGv4fM&list=PLz8TdOA7NTzTdFM93ak-qBVpX1aMFuw9c",
+						},
+						{
+							heading: "Uncode",
+							img: YT_4,
+							alt: "uncode",
+							link: "https://www.youtube.com/watch?v=z65frJP2x5s&list=PLEbnTDJUr_IcrtEY8d4iEUt7hm46DeobO",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/103/106103070/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Automata Theory Language & Computation",
+							img: DocIcon,
+							alt: "Automata Theory Language & Computation",
+							link: "https://www.amazon.in/Introduction-Automata-Theory-Languages-Computation/dp/8131720470/",
+						},
+						{
+							heading: "Introduction to the Theory of Computation",
+							img: DocIcon,
+							alt: "Introduction to the Theory of Computation",
+							link: "https://www.amazon.in/Introduction-Theory-Computation-Michael-Sipser/dp/8131525295/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: DBMS,
-			alt: "database and management system",
+			alt: "dbms",
 			title: "DBMS",
 			link: "/resource/core/dbms",
+			pageType: "card-type",
+			data: [
+				{
+					img: DBMS,
+					alt: "dbms",
+					heading: "DBMS",
+					nextAlt: "resources",
+					description:
+						"The database management system is software that is used to manage the database. DBMS provides an interface to perform various operations like database creation, storing data in it, updating data, creating a table in the database, and a lot more.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gate Smashers",
+							img: YT_1,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=kBdlM6hNDAE&list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
+						},
+						{
+							heading: "Jenny's Lecture",
+							img: YT_2,
+							alt: "jenny's lecture",
+							link: "https://www.youtube.com/watch?v=T7AxM7Vqvaw&list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc",
+						},
+						{
+							heading: "Sanchit Jain",
+							img: YT_3,
+							alt: "sanchit jain",
+							link: "https://www.youtube.com/watch?v=CE1fhHgnC30&list=PL8bsz01usgXzW-Z_Cq2g4_CP3QponZx ",
+						},
+						{
+							heading: "EduforYou",
+							img: YT_4,
+							alt: "eduforyou",
+							link: "https://www.youtube.com/watch?v=wjfeGxqAQOY&list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/104/106104021/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Database Management Systems",
+							img: DocIcon,
+							alt: "Database Management Systems",
+							link: "https://www.amazon.in/Database-Management-Systems-Rajiv-Chopra/dp/9385676342",
+						},
+						{
+							heading: "Fundamentals of Database Systems",
+							img: DocIcon,
+							alt: "Fundamentals of Database Systems",
+							link: "https://www.amazon.in/Fundamentals-Database-System-Elmasri-Ramez/dp/933258270X/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: OOPS,
 			alt: "oops",
 			title: "OOPS",
 			link: "/resource/core/oops",
+			pageType: "card-type",
+			data: [
+				{
+					img: OOPS,
+					alt: "oops",
+					heading: "OOPS",
+					nextAlt: "resources",
+					description:
+						"Object-oriented programming (OOP) is a computer programming model that organizes software design around data, or objects, rather than functions and logic",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Kunal Kushawah",
+							img: YT_1,
+							alt: "kunal kushawah",
+							link: "https://www.youtube.com/watch?v=BSVKUk58K6U&list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk",
+						},
+						{
+							heading: "Freecodecamp",
+							img: YT_2,
+							alt: "freecodecamp",
+							link: "https://www.youtube.com/watch?v=wN0x9eZLix4&list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m&index=3",
+						},
+						{
+							heading: "Anuj Bhaiya",
+							img: YT_3,
+							alt: "anuj bhaiya",
+							link: "https://www.youtube.com/watch?v=a199KZGMNxk",
+						},
+						{
+							heading: "Telusko",
+							img: YT_4,
+							alt: "telusko",
+							link: "https://www.youtube.com/watch?v=bn3zKuU6gwI&list=PLsyeobzWxl7rb5KatAnlvZFgLQ8RS4091",
+						},
+						{
+							heading: "CodewithHarry:",
+							img: YT_5,
+							alt: "codewithharry:",
+							link: "https://www.youtube.com/watch?v=fpdwRofNMeQ&list=PLu0W_9lII9ahfRrhFcoB-4lpp9YaBmdCP",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Object-Oriented Programming with C++",
+							img: DocIcon,
+							alt: "Object-Oriented Programming with C++",
+							link: "https://www.amazon.in/Object-Oriented-Programming-C-8th-Balagurusamy/dp/9389949181/",
+						},
+						{
+							heading: "Object Oriented Programming C++ ",
+							img: DocIcon,
+							alt: "Object Oriented Programming C++ ",
+							link: "https://www.amazon.in/Object-Oriented-Programming-C-4e/dp/8131722821/",
+						},
+					],
+				},
+			],
+		},
+		{
+			img: Networking,
+			alt: "networking",
+			title: "Networking",
+			link: "/resource/core/networking",
+			pageType: "card-type",
+			data: [
+				{
+					img: Networking,
+					alt: "networking",
+					heading: "Networking",
+					nextAlt: "resources",
+					description:
+						"Networking is the exchange of information and ideas among people with a common profession or special interest, usually in an informal social setting. Networking often begins with a single point of common ground.",
+				},
+				{
+					subHeading: "Resources",
+					alt: "resources",
+					description:
+						"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+					dataCards: [
+						{
+							heading: "Gate smashers",
+							img: YT_1,
+							alt: "gate smashers",
+							link: "https://www.youtube.com/watch?v=JFF2vJaN0Cw&list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_",
+						},
+						{
+							heading: "Freecodecamp",
+							img: YT_2,
+							alt: "freecodecamp",
+							link: "https://www.youtube.com/watch?v=qiQR5rTSshw",
+						},
+						{
+							heading: "My CS",
+							img: YT_3,
+							alt: "my cs",
+							link: "https://www.youtube.com/watch?v=0PbTi_Prpgs&list=PLqrmzsjOpq5gPeUvStkqTUyeabce_q8nX",
+						},
+						{
+							heading: "NPTEL",
+							img: DocIcon,
+							alt: "nptel",
+							link: "https://nptel.ac.in/courses/106/105/106105080/",
+						},
+					],
+				},
+				{
+					subHeading: "Books",
+					alt: "books",
+					description:
+						"Are you a voracious reader? Go to this area of core books to get the best books for core subjects.",
+					dataCards: [
+						{
+							heading: "Data Communications and Networking",
+							img: DocIcon,
+							alt: "Data Communications and Networking",
+							link: "https://www.amazon.in/Data-Communications-Networking-Forouzan/dp/1259064751/",
+						},
+						{
+							heading:
+								"Computer Networking - A top down approach featuring the Internet",
+							img: DocIcon,
+							alt: "Computer Networking - A top down approach featuring the Internet",
+							link: "https://www.amazon.in/Computer-Networking-Top-Down-Kurose-James/dp/9332585490/",
+						},
+					],
+				},
+			],
 		},
 		{
 			img: ComingSoon,
