@@ -1227,7 +1227,108 @@ export const DegreeModules = [
 		img: CPDegree,
 		alt: "competitive programming",
 		kickoff: "Find Out!",
-		url: "/core/competitive",
+		pageType: "link-card-type",
+		url: "/degree/competitive-programming",
+		data: [
+			{
+				heading: "Competitive Programming",
+				description:
+					"Along with a slew of other geeks from around the world, set a daily goal to improve. The best strategy to begin CP and improve your problem-solving ability.",
+				alt: "cp",
+				nextAlt: "resources",
+			},
+			{
+				subHeading: "Roadmap",
+				alt: "roadmap",
+				description:
+					"After evaluating the tech stacks you'll need, build your skills from the ground up. These structured pathways will help you decide what to start first.",
+				contents: [
+					{
+						title: "Roadmap",
+						img: DetailedRoadmap,
+						alt: "roadmap",
+						link: "https://whimsical.com/codeforces-candidate-master-roadmap-by-love-babbar-CiXPPD3CnwoXPr2d8Ajx1h",
+					},
+				],
+			},
+			{
+				subHeading: "Resources",
+				alt: "resources",
+				description:
+					"Time saver skill booster efficient video resources to enhance your knowledge. Esteemed and tested channels to start from very basics to advance level with super creativity level.",
+				contents: [
+					{
+						title: "SDE Sheet",
+						img: DocIcon,
+						alt: "sde sheet",
+						link: "https://docs.google.com/document/d/1SM92efk8oDl8nyVw8NHPnbGexTS9W-1gmTEYfEurLWQ/edit",
+					},
+					{
+						title: "LUV",
+						img: YT_4,
+						alt: "luv",
+						link: "https://www.youtube.com/c/LuvIsMe",
+					},
+					{
+						title: "CodeHelp",
+						img: YT_5,
+						alt: "code help",
+						link: "https://www.youtube.com/channel/UCldyi11QYNXYXiLjVbyw5dA",
+					},
+				],
+			},
+
+			{
+				subHeading: "Test your knowledge!",
+				alt: "test",
+				description:
+					"Challenges make success simpler, try out these step-guided assessments. Test your skills to look out for your mistakes and be the better version of yourself",
+				contents: [
+					{
+						title: "Coderbyte",
+						img: QuizIcon,
+						alt: "coderbyte",
+						link: "https://coderbyte.com/",
+					},
+					{
+						title: "Codeforces",
+						img: QuizIcon,
+						alt: "codeforces",
+						link: "https://codeforces.com/",
+					},
+					{
+						title: "Hackerearth",
+						img: QuizIcon,
+						alt: "hackerearth",
+						link: "https://www.hackerearth.com/",
+					},
+					{
+						title: "Codewars",
+						img: QuizIcon,
+						alt: "codewars",
+						link: "https://www.codewars.com/",
+					},
+					{
+						title: "HackerRank",
+						img: QuizIcon,
+						alt: "hackerrank",
+						link: "https://www.hackerrank.com/",
+					},
+					{
+						title: "Codechef",
+						img: QuizIcon,
+						alt: "codechef",
+						link: "https://www.codechef.com/",
+					},
+					{
+						title: "InterviewBit",
+						img: QuizIcon,
+						alt: "interviewbit",
+						link: "https://www.interviewbit.com/",
+					},
+				],
+			},
+		],
 	},
 	{
 		title: "Benefits of being a student",
