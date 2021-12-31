@@ -1,0 +1,167 @@
+.app-footer {
+	padding: 3.3rem 5.9rem;
+	margin-top: 16rem;
+
+	background: linear-gradient(180deg, #cdf4de 0%, #bbf2e9 2.44%);
+
+	.footer-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+
+		.footer-section {
+			display: flex;
+			flex-direction: column;
+
+			h2 {
+				font-weight: 500;
+				font-size: 21px;
+				line-height: 28px;
+
+				color: #0d6577;
+			}
+
+			.underline {
+				width: 13.12rem;
+				border-bottom: 2px solid #208094;
+
+				margin-top: 0.5rem;
+			}
+			.footer-contents {
+				margin-top: 1.3rem;
+
+				.content {
+					a,
+					p {
+						color: #222525;
+						font-size: 16px;
+						line-height: 21px;
+						text-decoration: none;
+
+						transition: all 0.1s;
+					}
+					a:hover {
+						font-weight: 600;
+						color: #0e363f;
+					}
+
+					&:not(:first-child) {
+						margin-top: 0.6rem;
+					}
+				}
+			}
+		}
+
+		#footer-Contacts a {
+			color: #006e85;
+		}
+	}
+}
+
+@media only screen and (max-width: 1240px) {
+	.app-footer {
+		padding: 3.3rem 4rem;
+
+		.footer-container {
+			.footer-section {
+				> h2 {
+					font-size: 20px;
+					line-height: 24px;
+				}
+
+				.underline {
+					width: 160px;
+				}
+				.footer-contents {
+					.content {
+						a,
+						p {
+							font-size: 14px;
+							line-height: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1048px) {
+	.app-footer {
+		padding: 3.3rem 2rem;
+
+		.footer-container {
+			.footer-section {
+				> h2 {
+					font-size: 18px;
+					line-height: 21px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 848px) {
+	.app-footer {
+		padding: 3.3rem 1.8rem;
+
+		.footer-container {
+			grid-template-columns: 1fr 1fr;
+			row-gap: 3rem;
+
+			.footer-section {
+				> h2 {
+					font-size: 16px;
+					line-height: 20px;
+				}
+
+				.underline {
+					width: 120px;
+					margin-top: 0.6rem;
+				}
+
+				.footer-contents {
+					margin-top: 0.65rem;
+
+					.content {
+						margin-top: 0.45rem;
+
+						a,
+						p {
+							font-size: 14px;
+							line-height: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 680px) {
+	.app-footer .footer-container .footer-section {
+		> h2 {
+			font-size: 15px;
+			line-height: 18px;
+		}
+
+		.underline {
+			margin-top: 0.3rem;
+		}
+
+		.footer-contents {
+			margin-top: 0.55rem;
+
+			.content {
+				a,
+				p {
+					font-size: 12px;
+					line-height: 15px;
+				}
+				&:not(:first-child) {
+					margin-top: 0.3rem;
+				}
+			}
+		}
+	}
+}
