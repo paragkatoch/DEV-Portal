@@ -106,7 +106,7 @@ function ContactComponent(props) {
 				/>
 			</section>
 
-			<section className={`${styles.contact_credit} ${styles.contact_section}`}>
+			{/* <section className={`${styles.contact_credit} ${styles.contact_section}`}>
 				<header className={styles.header}>
 					<p>Credit where it’s due</p>
 					<hr className={styles.underline} />
@@ -120,7 +120,7 @@ function ContactComponent(props) {
 				</main>
 
 				<BasicButton kickoff="Thank them!" url="/contact/contribute" />
-			</section>
+			</section> */}
 
 			<section className={`${styles.made_by} ${styles.contact_section}`}>
 				<p>
