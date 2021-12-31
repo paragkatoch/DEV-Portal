@@ -74,6 +74,7 @@ export default function Header(props) {
 								src="/assets/AppIcon.svg"
 								height="38.57"
 								alt="app icon"
+								priority="true"
 							/>
 							<h3>{APP.NAME}</h3>
 						</a>
