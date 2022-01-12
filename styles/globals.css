@@ -7,8 +7,10 @@ a {
 	padding-bottom: 3rem !important;
 }
 
+html,
 body {
 	margin: 0;
+	scroll-behavior: smooth;
 	font-family: "Open Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
